@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:01.979376+00:00",
+  "status": "WAITING_FOR_DUPLICATE_REVIEW",
+  "candidate_pair_count": 70,
+  "candidate_group_count": 61,
+  "canonical_article_count": 12784,
+  "pairs_with_missing_canonical_articles": 0,
+  "reviewer_1": {
+    "file": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\data\\interim\\duplicate_review_reviewer_1_sheet.csv",
+    "row_count": 70,
+    "unique_pair_count": 70,
+    "reviewer_ids": [],
+    "completed_or_escalated_decision_count": 0,
+    "pending_pair_count": 70,
+    "decision_counts": {},
+    "validation_error_count": 0,
+    "validation_errors_by_pair": {}
+  },
+  "reviewer_2": {
+    "file": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\data\\interim\\duplicate_review_reviewer_2_sheet.csv",
+    "row_count": 70,
+    "unique_pair_count": 70,
+    "reviewer_ids": [],
+    "completed_or_escalated_decision_count": 0,
+    "pending_pair_count": 70,
+    "decision_counts": {},
+    "validation_error_count": 0,
+    "validation_errors_by_pair": {}
+  },
+  "cross_split_candidate_pair_count": 3,
+  "cross_split_candidate_group_ids": [
+    "DUP-GROUP-000058"
+  ],
+  "cross_split_candidate_group_count": 1,
+  "candidate_pairs_with_modeling_quarantine_count": 6,
+  "cross_split_pairs_without_existing_modeling_quarantine_count": 0,
+  "version_lineage_review_candidate_count": 70,
+  "version_lineage_verification_count": 0,
+  "version_lineage_note": "Version lineage requires explicit reviewer evidence; similarity and publication dates alone are not sufficient."
+}

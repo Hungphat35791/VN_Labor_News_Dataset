@@ -1,0 +1,260 @@
+{
+  "report_type": "AI semantic quality audit of Batch 01 proposals",
+  "scope": {
+    "article_count": 10,
+    "article_ids": [
+      "VNLAB-001450",
+      "VNLAB-005536",
+      "VNLAB-003841",
+      "VNLAB-010982",
+      "VNLAB-000693",
+      "VNLAB-008895",
+      "VNLAB-008407",
+      "VNLAB-000673",
+      "VNLAB-012710",
+      "VNLAB-009903"
+    ],
+    "standard": "5_process/config/labeling_guideline.md, relevance labels and A-L primary-topic taxonomy"
+  },
+  "important_disclaimer": "All audit assessments and suggested labels in this report are AI-generated quality-control suggestions. They are not human-confirmed manual labels and must not be copied into the review CSV as accepted decisions. The batch CSV and proposal CSV were not edited.",
+  "audit_method": "Read the full title and article content for each listed ID, compared its central subject and direct textual evidence with the guideline's relevance criteria and A-L topic definitions, and treated the existing proposal only as the item under review, not as ground truth.",
+  "input_integrity": {
+    "batch_csv": {
+      "path": "5_process/data/interim/relevance_review_batch_01.csv",
+      "sha256_before_audit": "cdc485ef53ac6f13023243c30cb21ac9a2157b10a6d8c7d7dd4e393634a192df"
+    },
+    "proposals_csv": {
+      "path": "5_process/data/interim/relevance_review_batch_01_proposals.csv",
+      "sha256_before_audit": "22232f1c53a81268de11b1263934df5061bcce85db89a9738f8bf5002850af77"
+    },
+    "master_sample_csv": {
+      "path": "5_process/data/interim/relevance_review_sample.csv",
+      "sha256_before_audit": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c"
+    },
+    "report_destination_existed_before_creation": false
+  },
+  "records": [
+    {
+      "article_id": "VNLAB-001450",
+      "title": "Bộ GD-ĐT đề xuất gì trước tình trạng giáo viên nghỉ việc?",
+      "current_ai_proposal": {
+        "relevance_manual": "Relevant",
+        "topic_manual": "B - Thất nghiệp, mất việc, cắt giảm nhân sự",
+        "review_reason": "Phỏng vấn tập trung vào tình trạng giáo viên nghỉ/chuyển việc, tỷ lệ rời nghề, nguyên nhân thiếu thu nhập/áp lực/điều kiện công tác và giải pháp giữ chân đội ngũ."
+      },
+      "direct_evidence": [
+        "“Việc GV chuyển việc, nghỉ việc có nhiều nguyên nhân cả khách quan và chủ quan.”",
+        "“số GV nghỉ việc, chuyển việc chiếm tỷ lệ khoảng trên 1%”",
+        "“Bộ ... đề xuất xây dựng chính sách tiền lương mới” để giúp giáo viên yên tâm công tác."
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Relevant",
+        "recommended_topic": "D - Hợp đồng lao động, nghỉ việc, sa thải",
+        "action": "revise_topic",
+        "confidence": "High",
+        "rationale": "Giữ Relevant vì bài trực tiếp phân tích việc giáo viên rời nghề, lý do và giải pháp giữ chân. Tuy nhiên, nghỉ việc/chuyển việc tự nguyện không đồng nghĩa với thất nghiệp, mất việc hoặc cắt giảm nhân sự; trọng tâm khớp D hơn B.",
+        "alternative_if_any": "C - Tiền lương, bảo hiểm, quyền lợi là chủ đề cạnh tranh do bài dành dung lượng cho thu nhập và chính sách lương, nhưng chủ đề trung tâm vẫn là nghỉ/chuyển việc."
+      }
+    },
+    {
+      "article_id": "VNLAB-005536",
+      "title": "Phó giám đốc Sở KH-CN TP.HCM xin thôi việc",
+      "current_ai_proposal": {
+        "relevance_manual": "Not relevant",
+        "topic_manual": "",
+        "review_reason": "Bài tường thuật việc một phó giám đốc sở xin thôi việc theo nguyện vọng và nhận trợ cấp thôi việc; không bàn chính sách lao động hay vấn đề việc làm rộng hơn."
+      },
+      "direct_evidence": [
+        "Bà Chu Vân Hải “tiếp tục gửi đơn xin nghỉ việc” và được quyết định “cho thôi việc”.",
+        "“Sau khi nghỉ việc, bà Hải được hưởng trợ cấp thôi việc hơn 95 triệu đồng.”"
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Relevant",
+        "recommended_topic": "D - Hợp đồng lao động, nghỉ việc, sa thải",
+        "action": "revise",
+        "confidence": "Medium",
+        "rationale": "Đây là tin nhân sự hành chính về một cá nhân, nhưng nội dung không chỉ là bổ nhiệm/điều chuyển chức vụ: bài nêu việc chấm dứt công việc theo nguyện vọng và trợ cấp thôi việc. Hai nội dung này thuộc trực tiếp nhóm D theo định nghĩa hiện có. Độ chắc chắn ở mức vừa vì phạm vi đưa tin nhân sự của một công chức cấp cao có thể cần quy tắc dự án rõ hơn; guideline hiện tại không loại trừ công chức.",
+        "alternative_if_any": "Not relevant chỉ phù hợp nếu người phụ trách xác nhận có quy tắc loại trừ tin nhân sự hành chính cá nhân; quy tắc loại trừ đó hiện không được nêu trong guideline."
+      }
+    },
+    {
+      "article_id": "VNLAB-003841",
+      "title": "Lương Chủ tịch UBND phường tại TP Hồ Chí Minh sau khi tăng lương là bao nhiêu?",
+      "current_ai_proposal": {
+        "relevance_manual": "Not relevant",
+        "topic_manual": "",
+        "review_reason": "Bài tính lương và phụ cấp của chức danh Chủ tịch UBND phường/quận, không bàn tiền lương, quyền lợi hay điều kiện việc làm của người lao động trong phạm vi taxonomy."
+      },
+      "direct_evidence": [
+        "“Với việc tăng lương cơ sở lên 1,8 triệu đồng/tháng ... mức lương Chủ tịch UBND phường ... lần lượt là 3.870.000 đồng và 4.770.000 đồng.”",
+        "Bài nêu riêng “phụ cấp chức vụ” và tổng lương cùng phụ cấp của Chủ tịch UBND quận."
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Relevant",
+        "recommended_topic": "C - Tiền lương, bảo hiểm, quyền lợi",
+        "action": "revise",
+        "confidence": "Medium",
+        "rationale": "Khác với tin bổ nhiệm hay điều chuyển nhân sự, trọng tâm bài là mức lương, hệ số và phụ cấp theo điều chỉnh lương cơ sở. Do đó, tiêu chí nội dung thuộc C. Người được nói đến là chức danh công quyền/công chức, không phải nhóm lao động tư nhân; tuy vậy guideline không giới hạn C ở lao động tư nhân nên không đủ căn cứ để loại chỉ vì chức danh hành chính.",
+        "alternative_if_any": "Not relevant nếu phạm vi corpus chủ ý loại lương của chức danh công quyền; cần bổ sung quy tắc phạm vi này vào guideline trước khi áp dụng nhất quán."
+      }
+    },
+    {
+      "article_id": "VNLAB-010982",
+      "title": "Công an Đồng Nai chúc Tết, tặng quà cho công nhân Pouchen",
+      "current_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "C - Tiền lương, bảo hiểm, quyền lợi",
+        "review_reason": "Tin chủ yếu về chương trình công an tặng quà Tết cho công nhân Pouchen; có ghi nhận sự quan tâm, thu nhập, an toàn và gắn bó của người lao động nhưng không phân tích quyền lợi hay điều kiện lao động cụ thể."
+      },
+      "direct_evidence": [
+        "Công an tỉnh trao “300 phần quà (mỗi phần quà trị giá 700.000 đồng) cho các công nhân đang làm việc tại Công ty Pouchen.”",
+        "Bài gọi đây là chương trình “Xuân công nhân”; không nói quà là khoản lương, phúc lợi theo hợp đồng hay quyền lợi do người sử dụng lao động chi trả."
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Borderline",
+        "recommended_topic": "H - Chính sách việc làm, đào tạo nghề, an sinh xã hội",
+        "action": "revise_topic",
+        "confidence": "Low",
+        "rationale": "Đối tượng nhận hỗ trợ là công nhân nên có liên hệ đáng kể với hỗ trợ người lao động, nhưng đây là hoạt động tặng quà Tết một lần của cơ quan công an, không phải lương, bảo hiểm hay quyền lợi lao động đã được xác lập. H gần hơn C nếu xem đây là hỗ trợ cộng đồng; vẫn giữ Borderline vì bài không mô tả chính sách an sinh hay chương trình hỗ trợ có tính hệ thống.",
+        "alternative_if_any": "Not relevant nếu tiêu chí dự án chỉ nhận tin về quyền lợi lao động/chính sách hỗ trợ chính thức và loại hoạt động từ thiện hoặc thăm hỏi đơn lẻ. Không nên gọi món quà này là phúc lợi lao động của doanh nghiệp."
+      }
+    },
+    {
+      "article_id": "VNLAB-000693",
+      "title": "Bình Phước: Công nhân vay ‘tín dụng đen’, cán bộ công đoàn bị đe dọa",
+      "current_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "F - Công đoàn, đình công, tranh chấp lao động",
+        "review_reason": "Vụ đe dọa nhắm vào cán bộ công đoàn doanh nghiệp phát sinh sau khi bà được yêu cầu xử lý việc hai công nhân vay nợ; có liên hệ công đoàn/lao động nhưng nội dung chủ yếu là hành vi đe dọa và khoản vay cá nhân, không phải tranh chấp tại nơi làm việc."
+      },
+      "direct_evidence": [
+        "Người gọi yêu cầu cán bộ công đoàn “báo công nhân trả lại tiền” cho khoản vay cá nhân.",
+        "Hai công nhân nói về khoản vay với công ty tài chính; Liên đoàn Lao động đề nghị bảo vệ cán bộ bị đe dọa."
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Not relevant",
+        "recommended_topic": "",
+        "action": "revise",
+        "confidence": "Medium",
+        "rationale": "Trọng tâm là đe dọa, bôi nhọ và khoản vay cá nhân. Không có thương lượng, đình công, tranh chấp lao động hay hoạt động đại diện người lao động về điều kiện việc làm. Việc nạn nhân là cán bộ công đoàn và Liên đoàn Lao động lên tiếng là bối cảnh, không tự nó biến vụ việc thành chủ đề F.",
+        "alternative_if_any": "Borderline - F chỉ có thể giữ nếu người rà soát xác định vai trò đại diện công đoàn và yêu cầu bảo vệ nghề nghiệp là trọng tâm đáng kể; nội dung hiện có ủng hộ cách đọc tin hình sự/cá nhân hơn."
+      }
+    },
+    {
+      "article_id": "VNLAB-008895",
+      "title": "Tài xế công nghệ bị sát hại sau khi nhận cuốc xe 100.000 đồng",
+      "current_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "E - Điều kiện làm việc, an toàn lao động",
+        "review_reason": "Nạn nhân bị sát hại khi đang chạy xe công nghệ để kiếm tiền; bài chỉ tường thuật vụ án, không phân tích an toàn nghề nghiệp hay giải pháp bảo vệ tài xế, nên mức liên quan cần người đọc xác nhận."
+      },
+      "direct_evidence": [
+        "Bị cáo “nảy sinh ý định cướp tài sản của các tài xế xe ôm” và đặt chuyến xe đến nơi vắng nhằm gây án.",
+        "Nạn nhân là tài xế công nghệ đang thực hiện chuyến xe đã thỏa thuận giá 100.000 đồng."
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Borderline",
+        "recommended_topic": "E - Điều kiện làm việc, an toàn lao động",
+        "action": "retain_with_boundary_note",
+        "confidence": "Medium",
+        "rationale": "Đây là tin xét xử hình sự, không phải bài phân tích an toàn lao động. Tuy nhiên nghề tài xế không chỉ là thông tin phụ: thủ phạm chủ động nhắm vào tài xế xe ôm và gây án trong chuyến chở khách, thể hiện rủi ro gắn trực tiếp với công việc. Borderline phù hợp hơn Relevant vì bài không bàn điều kiện, biện pháp phòng ngừa hay quyền của người lao động.",
+        "alternative_if_any": "Not relevant nếu phạm vi chỉ tính bài phân tích/chính sách an toàn lao động và loại tin vụ án dù nguy cơ phát sinh trực tiếp trong khi làm việc."
+      }
+    },
+    {
+      "article_id": "VNLAB-008407",
+      "title": "3 người đánh shipper ở Đà Nẵng tử vong bị khởi tố tội 'cố ý gây thương tích'",
+      "current_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "E - Điều kiện làm việc, an toàn lao động",
+        "review_reason": "Shipper bị đánh sau va chạm phát sinh trong quá trình giao hàng và tử vong; bài là tin án hình sự, chưa bàn các biện pháp an toàn nghề nghiệp hay quyền lao động nên cần xác nhận ranh giới."
+      },
+      "direct_evidence": [
+        "Nạn nhân là “nhân viên giao hàng cho một công ty” và khách hàng “phản ánh đến công ty nơi anh Thành làm việc.”",
+        "Sau khi giao hàng và mâu thuẫn với khách, anh Thành quay lại nhà khách lúc đêm; bài tập trung vào diễn biến đánh người và khởi tố hình sự."
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Borderline",
+        "recommended_topic": "E - Điều kiện làm việc, an toàn lao động",
+        "action": "retain_with_boundary_note",
+        "confidence": "Low",
+        "rationale": "Khác với một vụ án mà nghề nghiệp của nạn nhân chỉ là thông tin tiểu sử, mâu thuẫn ở đây khởi phát từ lần giao hàng và việc khách phản ánh với công ty. Tuy nhiên cuộc hành hung xảy ra sau đó, ngoài ca giao hàng, khi người lao động chủ động quay lại nhà khách; bài không bàn trách nhiệm hay biện pháp an toàn tại nơi làm việc. Vì vậy chỉ nên giữ Borderline E, không coi đây là bằng chứng đầy đủ về tai nạn lao động.",
+        "alternative_if_any": "Not relevant nếu áp dụng tiêu chí chặt rằng sự kiện phải xảy ra trong khi thực hiện công việc hoặc bài phải trực tiếp bàn an toàn nghề nghiệp; đây là lựa chọn ranh giới cần người rà soát quyết định."
+      }
+    },
+    {
+      "article_id": "VNLAB-000673",
+      "title": "Tài xế công nghệ phải tuân thủ quyền riêng tư của khách gọi xe",
+      "current_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "K - Pháp luật lao động và thực thi",
+        "review_reason": "Bài nêu yêu cầu của Bộ GTVT về dữ liệu cá nhân và quyền riêng tư của khách khi tài xế công nghệ cung cấp dịch vụ; có quy định đối với người lái xe nhưng trọng tâm là bảo vệ hành khách, không phải quyền lao động."
+      },
+      "direct_evidence": [
+        "Văn bản yêu cầu thực hiện quy định về “thu thập, lưu trữ và xử lý dữ liệu, thông tin cá nhân”.",
+        "Bài nhấn mạnh chống xâm phạm “quyền riêng tư của hành khách”; không đề cập quyền, tiền lương hay điều kiện làm việc của tài xế."
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Not relevant",
+        "recommended_topic": "",
+        "action": "revise",
+        "confidence": "High",
+        "rationale": "Việc một quy định áp dụng cho tài xế không đủ để xếp vào K. Trọng tâm pháp lý là dữ liệu cá nhân và quyền riêng tư của hành khách, không phải pháp luật lao động hay việc thực thi quyền lao động. Sự hiện diện của tài xế là đối tượng phải tuân thủ quy định, không phải chủ thể của vấn đề lao động trong bài.",
+        "alternative_if_any": "Borderline chỉ khi phạm vi dự án mở rộng sang mọi quy định ngành vận tải có áp dụng cho người lao động; guideline hiện tại giới hạn K ở pháp luật lao động và thực thi."
+      }
+    },
+    {
+      "article_id": "VNLAB-012710",
+      "title": "Công an xác minh vụ một nhóm người hành hung tài xế công nghệ ở Đắk Lắk",
+      "current_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "E - Điều kiện làm việc, an toàn lao động",
+        "review_reason": "Tài xế công nghệ bị hành hung sau khi từ chối chuyến đi vì lo ngại an toàn; sự việc gắn trực tiếp với rủi ro khi làm việc nhưng bài hiện chỉ phản ánh vụ việc đơn lẻ, không phân tích điều kiện bảo vệ tài xế."
+      },
+      "direct_evidence": [
+        "Tài xế từ chối chở khách có biểu hiện say xỉn trên quãng đường 16 km vì “lo ngại không đảm bảo an toàn trong quá trình di chuyển bằng xe máy”.",
+        "Sau khi xin hủy chuyến, tài xế bị nhóm người lao vào hành hung."
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Borderline",
+        "recommended_topic": "E - Điều kiện làm việc, an toàn lao động",
+        "action": "retain",
+        "confidence": "Medium",
+        "rationale": "Rủi ro an toàn gắn trực tiếp với quyết định phục vụ một chuyến xe và hành khách, không chỉ là nghề nghiệp được nhắc như tiểu sử. Dù bài là tin vụ việc đơn lẻ, bối cảnh công việc và lý do hủy chuyến khiến liên hệ với an toàn lao động đáng kể; Borderline phản ánh việc bài chưa phân tích hệ thống hay giải pháp."
+      }
+    },
+    {
+      "article_id": "VNLAB-009903",
+      "title": "GMD chào bán hơn 6,3 triệu cổ phiếu giá 10.000 đồng cho người lao động suất sắc",
+      "current_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "C - Tiền lương, bảo hiểm, quyền lợi",
+        "review_reason": "Trọng tâm lớn là chương trình cổ phiếu thưởng cho 101 nhân viên nhằm giữ chân, tạo động lực; phần còn lại chủ yếu là phân tích hoạt động kinh doanh/cổ phiếu của GMD, nên mức liên quan đến lao động còn giới hạn."
+      },
+      "direct_evidence": [
+        "Gemadept dự kiến chào bán cổ phiếu cho “101 cán bộ, nhân viên có thành tích xuất sắc năm 2024”.",
+        "Bài nói mục đích là “giữ chân và thu hút nguồn nhân lực chất lượng cao” và tạo động lực cho người lao động.",
+        "Phần lớn các đoạn sau bàn thông lượng cảng, triển vọng kinh doanh và giá cổ phiếu GMD."
+      ],
+      "audit_assessment": {
+        "recommended_relevance": "Borderline",
+        "recommended_topic": "C - Tiền lương, bảo hiểm, quyền lợi",
+        "action": "retain",
+        "confidence": "Medium",
+        "rationale": "ESPP là một hình thức lợi ích/đãi ngộ dành cụ thể cho nhân viên, nên có liên hệ trực tiếp với quyền lợi người lao động. Tuy nhiên, đây là chương trình dành cho một nhóm nhân viên có thành tích và bài nhanh chóng chuyển sang phân tích tài chính doanh nghiệp; Borderline phù hợp hơn Relevant. Không nên xem việc cổ phiếu tăng/giảm hoặc triển vọng doanh nghiệp là bằng chứng tự thân về chủ đề lao động."
+      }
+    }
+  ],
+  "cross_article_findings": [
+    "VNLAB-001450: nghỉ việc/chuyển việc tự nguyện không đồng nghĩa với thất nghiệp hoặc cắt giảm nhân sự; D phù hợp hơn B.",
+    "VNLAB-005536 và VNLAB-003841: nội dung thực tế về thôi việc/trợ cấp và lương/phụ cấp khác với tin nhân sự hành chính thuần túy như bổ nhiệm hoặc điều chuyển. Guideline hiện không loại trừ công chức; nếu muốn loại một trong các nhóm này, cần quyết định và ghi rõ quy tắc phạm vi.",
+    "VNLAB-008895, VNLAB-008407 và VNLAB-012710: việc người lao động là nạn nhân của vụ án không tự động tạo chủ đề an toàn lao động. Liên hệ nghề nghiệp trực tiếp mạnh hơn khi sự kiện xảy ra trong chuyến làm việc hoặc phát sinh từ tương tác phục vụ khách; bài vẫn có thể chỉ đạt Borderline nếu không bàn điều kiện hay biện pháp an toàn.",
+    "VNLAB-010982: quà tặng một lần từ bên ngoài không nên mặc định là lương hoặc phúc lợi theo quan hệ lao động; H là lựa chọn gần hơn C nhưng độ phù hợp vẫn hạn chế.",
+    "VNLAB-000693: nhắc đến cán bộ công đoàn hoặc Liên đoàn Lao động không tự động là tranh chấp lao động; cần xác định hoạt động đại diện/tranh chấp có phải trọng tâm hay không."
+  ],
+  "limits": [
+    "Đây là kiểm tra ngữ nghĩa trên 10 bài được chỉ định, không phải đánh giá toàn bộ 50 đề xuất hoặc toàn bộ dataset.",
+    "Các ranh giới phạm vi đối với công chức, hoạt động tặng quà đơn lẻ và tin hình sự có liên hệ công việc cần con người xác nhận để bảo đảm áp dụng nhất quán.",
+    "Đề xuất trong báo cáo không thay thế quyết định của reviewer; reviewer phải tự đối chiếu bài gốc trước khi ghi nhãn thủ công."
+  ]
+}

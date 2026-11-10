@@ -1,0 +1,12 @@
+{
+  "status": "WAITING_FOR_REVIEWERS",
+  "reviewer_validation": {
+    "row_count": 12,
+    "unique_scenario_count": 12,
+    "completed_response_count": 0,
+    "pending_response_count": 12,
+    "reviewer_ids": [],
+    "validation_errors": []
+  },
+  "scoring": null
+}

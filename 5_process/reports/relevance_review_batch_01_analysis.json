@@ -1,0 +1,160 @@
+{
+  "batch_number": 1,
+  "batch_size": 50,
+  "articles_analyzed": 50,
+  "articles_in_batch": 50,
+  "articles_analyzed_this_update": 45,
+  "analysis_status": "AI_PROPOSALS_COMPLETE_HUMAN_REVIEW_PENDING",
+  "generated_at_utc": "2026-11-09T12:09:01.012784+00:00",
+  "inputs": {
+    "batch_file": "5_process/data/interim/relevance_review_batch_01.csv",
+    "batch_sha256": "cdc485ef53ac6f13023243c30cb21ac9a2157b10a6d8c7d7dd4e393634a192df",
+    "master_sample_file": "5_process/data/interim/relevance_review_sample.csv",
+    "master_sample_sha256": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c",
+    "guideline": "5_process/config/labeling_guideline.md"
+  },
+  "proposal_file": "5_process/data/interim/relevance_review_batch_01_proposals.csv",
+  "article_ids_in_batch_order": [
+    "VNLAB-008709",
+    "VNLAB-001095",
+    "VNLAB-008880",
+    "VNLAB-007546",
+    "VNLAB-004952",
+    "VNLAB-006822",
+    "VNLAB-001411",
+    "VNLAB-001508",
+    "VNLAB-009389",
+    "VNLAB-009903",
+    "VNLAB-007428",
+    "VNLAB-008079",
+    "VNLAB-008535",
+    "VNLAB-007573",
+    "VNLAB-002181",
+    "VNLAB-004668",
+    "VNLAB-000693",
+    "VNLAB-004123",
+    "VNLAB-010982",
+    "VNLAB-000076",
+    "VNLAB-003841",
+    "VNLAB-009945",
+    "VNLAB-002544",
+    "VNLAB-007237",
+    "VNLAB-006890",
+    "VNLAB-010191",
+    "VNLAB-007539",
+    "VNLAB-004968",
+    "VNLAB-001450",
+    "VNLAB-005264",
+    "VNLAB-008895",
+    "VNLAB-004239",
+    "VNLAB-004574",
+    "VNLAB-005325",
+    "VNLAB-006147",
+    "VNLAB-010307",
+    "VNLAB-008407",
+    "VNLAB-004477",
+    "VNLAB-000566",
+    "VNLAB-012218",
+    "VNLAB-011151",
+    "VNLAB-005536",
+    "VNLAB-012066",
+    "VNLAB-006996",
+    "VNLAB-009591",
+    "VNLAB-001927",
+    "VNLAB-000673",
+    "VNLAB-002886",
+    "VNLAB-007481",
+    "VNLAB-012710"
+  ],
+  "proposed_relevance_counts": {
+    "Relevant": 25,
+    "Borderline": 9,
+    "Not relevant": 16,
+    "Uncertain": 0
+  },
+  "proposed_topic_counts": {
+    "A - Thị trường lao động Việt Nam": 1,
+    "B - Thất nghiệp, mất việc, cắt giảm nhân sự": 2,
+    "C - Tiền lương, bảo hiểm, quyền lợi": 12,
+    "D - Hợp đồng lao động, nghỉ việc, sa thải": 2,
+    "E - Điều kiện làm việc, an toàn lao động": 4,
+    "F - Công đoàn, đình công, tranh chấp lao động": 3,
+    "H - Chính sách việc làm, đào tạo nghề, an sinh xã hội": 5,
+    "I - Lừa đảo tuyển dụng, bóc lột lao động": 1,
+    "J - Kinh tế và yếu tố tác động đến việc làm": 2,
+    "K - Pháp luật lao động và thực thi": 1,
+    "L - Tâm lý người lao động, chất lượng việc làm": 1
+  },
+  "confidence_counts": {
+    "High": 29,
+    "Medium": 11,
+    "Low": 10
+  },
+  "needs_human_review_count": 50,
+  "difficult_cases": [
+    {
+      "article_id": "VNLAB-009903",
+      "issue": "Employee equity incentive is labor compensation but story mostly covers financial/operating performance; Borderline and C need human confirmation."
+    },
+    {
+      "article_id": "VNLAB-007428",
+      "issue": "A multi-topic news roundup includes only a brief labor-union holiday-schedule item; excluded as not labor-focused."
+    },
+    {
+      "article_id": "VNLAB-000693",
+      "issue": "Union officer was threatened over workers’ private loans; connection to workplace labor relations is indirect."
+    },
+    {
+      "article_id": "VNLAB-003841",
+      "issue": "Salary article concerns public office holders, not ordinary worker wages or labor policy."
+    },
+    {
+      "article_id": "VNLAB-004968",
+      "issue": "Platform access suspension is the dispute trigger, but the article centers on criminal violence rather than platform work rights."
+    },
+    {
+      "article_id": "VNLAB-008895",
+      "issue": "Fatal robbery happened during a driver’s work, but article is criminal-court coverage with no occupational-safety discussion."
+    },
+    {
+      "article_id": "VNLAB-008407",
+      "issue": "Delivery worker died after assault connected to a customer complaint; work context exists, but labor-safety framing is not developed."
+    },
+    {
+      "article_id": "VNLAB-011151",
+      "issue": "Broad youth-month feature includes employment and worker-support passages among many non-labor activities."
+    },
+    {
+      "article_id": "VNLAB-005536",
+      "issue": "Specific public-service resignation/severance may be employment-related, but article is a short personnel announcement."
+    },
+    {
+      "article_id": "VNLAB-006996",
+      "issue": "Charity to couriers is the story, not their working conditions or rights."
+    },
+    {
+      "article_id": "VNLAB-000673",
+      "issue": "Regulation concerns customer privacy in ride-hailing; connection to driver labor protections is weak."
+    },
+    {
+      "article_id": "VNLAB-012710",
+      "issue": "Assault occurred during a driver’s work after a safety-based refusal; single incident rather than broader occupational-safety analysis."
+    }
+  ],
+  "review_status_changed": false,
+  "human_annotations_or_reviewer_identity_added": false,
+  "method_notes": [
+    "Read the complete title and content for each article in rows 6–50 and applied the relevance definitions and A–L primary-topic rules in the labeling guideline.",
+    "Preserved the first five proposal rows unchanged from the prior analysis.",
+    "Did not use P4.07 predicted status or topic labels as ground truth.",
+    "These 50 records are AI-generated proposals only. needs_human_review=true on every row indicates a human must verify and accept or revise each proposal.",
+    "No review_status, reviewer_id, or review_date was written to the master sample or Batch 01."
+  ],
+  "limitations": [
+    "AI proposals are not human-confirmed labels and must not be reported as completed manual review.",
+    "Confidence is a qualitative aid, not calibrated probability or evidence of reviewer agreement.",
+    "Several borderline cases arise from crime reports involving workers, general news roundups, public-official personnel stories, and charity activities; these require human scope decisions.",
+    "Batch 01 only was analyzed; no Batch 02–13 work was performed."
+  ],
+  "proposal_sha256": "22232f1c53a81268de11b1263934df5061bcce85db89a9738f8bf5002850af77"
+}

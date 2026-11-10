@@ -1,0 +1,39 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:04.579921+00:00",
+  "status": "WAITING_FOR_GOLD_LABELS",
+  "evaluation_method": "comparison_with_completed_human_gold",
+  "gold_annotation_count": 0,
+  "completed_human_gold_count": 0,
+  "topic_metric_sample_count": 0,
+  "gold_source": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\relevance_evaluation\\gold_annotations.csv",
+  "gold_source_sha256": null,
+  "gold_taxonomy": {
+    "name": "P4.06 relevance and topic taxonomy",
+    "version": "1.0.0",
+    "file": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\config\\relevance_taxonomy.md",
+    "sha256": "b64f7833c21151a26a7099676fe538dcdf03da0d9afc3cc357d5326743f820d4"
+  },
+  "classifier": {
+    "method": "p4.07_rule_reuse_with_per_topic_evidence",
+    "classifier_version": [
+      "1.0.0"
+    ],
+    "taxonomy_version": [
+      "1.0.0"
+    ]
+  },
+  "prediction_count": 12784,
+  "scope_and_limitations": "The 620-article human-review sample is stratified by P4.07 predicted status and is not representative of the natural corpus distribution. Topic scores describe only eligible human-labeled RELEVANT records.",
+  "metrics": null,
+  "metrics_suppressed_reason": "Gold annotation file is absent. No accuracy, precision, recall, F1, confusion matrix, or multi-label score was calculated.",
+  "duplicate_group_leakage_check": {
+    "status": "NOT_APPLICABLE_NO_TRAIN_TEST_SPLIT",
+    "group_count": null,
+    "cross_split_group_count": null,
+    "cross_split_groups": {},
+    "missing_split_member_count": null,
+    "missing_split_member_ids": [],
+    "split_value_count": null,
+    "note": "The evaluated rule-based classifiers do not fit a train/test model."
+  }
+}

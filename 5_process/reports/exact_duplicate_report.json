@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-11-09T06:28:55.302020+00:00",
+  "input_file": "1_du_lieu_chinh\\vn_labor_news_dataset.csv",
+  "input_sha256": "90a1c4a4e6cd70f27df2ec15e58b4183990a398ed2a2730de2c0302bdedf6f41",
+  "detector_version": "1.0.0",
+  "method": "sha256_raw_content_with_exact_text_verification",
+  "total_articles_checked": 12784,
+  "empty_content_count": 0,
+  "exact_duplicate_group_count": 0,
+  "articles_in_groups": 0,
+  "candidates_requiring_review": 0,
+  "candidate_article_rows_requiring_review": 0,
+  "hash_collision_buckets_detected": 0
+}

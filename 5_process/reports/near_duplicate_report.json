@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-11-09T06:44:20.297399+00:00",
+  "input_file": "1_du_lieu_chinh\\vn_labor_news_dataset.csv",
+  "input_sha256": "90a1c4a4e6cd70f27df2ec15e58b4183990a398ed2a2730de2c0302bdedf6f41",
+  "detector_version": "1.0.0",
+  "method": "TF-IDF word-unigram+bigram cosine similarity (sparse candidate pairs)",
+  "threshold": 0.85,
+  "total_articles_checked": 12784,
+  "empty_content_count": 0,
+  "candidate_pair_count": 70,
+  "unique_articles_in_candidates": 127,
+  "execution_time_seconds": 86.002575
+}

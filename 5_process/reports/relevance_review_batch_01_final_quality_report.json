@@ -1,0 +1,406 @@
+{
+  "report_type": "Batch 01 final AI proposal quality audit",
+  "generated_at": "2026-11-09T19:17:54.451+07:00",
+  "scope": {
+    "article_count": 10,
+    "article_ids": [
+      "VNLAB-001450",
+      "VNLAB-005536",
+      "VNLAB-003841",
+      "VNLAB-010982",
+      "VNLAB-000693",
+      "VNLAB-008895",
+      "VNLAB-008407",
+      "VNLAB-000673",
+      "VNLAB-012710",
+      "VNLAB-009903"
+    ],
+    "guideline": "5_process/config/labeling_guideline.md",
+    "proposal_file": "5_process/data/interim/relevance_review_batch_01_proposals.csv"
+  },
+  "status": "AI_PROPOSAL_AUDIT_COMPLETE_HUMAN_REVIEW_PENDING",
+  "disclaimer": "Các nhãn sau audit vẫn là đề xuất AI, không phải ground truth hoặc nhãn do con người xác nhận. Không ghi các đề xuất này vào trường thủ công của Batch 01; reviewer_id, review_date và review_status không được sửa.",
+  "summary": {
+    "audited": 10,
+    "label_or_topic_adjusted": 3,
+    "label_and_topic_retained": 7,
+    "adjusted_article_ids": [
+      "VNLAB-001450",
+      "VNLAB-010982",
+      "VNLAB-000673"
+    ],
+    "human_review_required_count": 10,
+    "scope_decision_needed_count": 7
+  },
+  "records": [
+    {
+      "article_id": "VNLAB-001450",
+      "title": "Bộ GD-ĐT đề xuất gì trước tình trạng giáo viên nghỉ việc?",
+      "initial_ai_proposal": {
+        "relevance_manual": "Relevant",
+        "topic_manual": "B - Thất nghiệp, mất việc, cắt giảm nhân sự"
+      },
+      "audit_conclusion": "ADJUSTED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Relevant",
+        "topic_manual": "D - Hợp đồng lao động, nghỉ việc, sa thải"
+      },
+      "direct_evidence": [
+        "“Việc GV chuyển việc, nghỉ việc có nhiều nguyên nhân cả khách quan và chủ quan.”",
+        "“số GV nghỉ việc, chuyển việc chiếm tỷ lệ khoảng trên 1%”",
+        "“Bộ ... đề xuất xây dựng chính sách tiền lương mới” để giúp giáo viên yên tâm công tác."
+      ],
+      "reasoning": "Nghỉ/chuyển việc tự nguyện thuộc D; B dành cho thất nghiệp, mất việc hoặc cắt giảm lao động.",
+      "confidence": "High",
+      "human_review_required": true,
+      "human_decision_needed": false,
+      "human_decision_note": null
+    },
+    {
+      "article_id": "VNLAB-005536",
+      "title": "Phó giám đốc Sở KH-CN TP.HCM xin thôi việc",
+      "initial_ai_proposal": {
+        "relevance_manual": "Not relevant",
+        "topic_manual": ""
+      },
+      "audit_conclusion": "RETAINED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Not relevant",
+        "topic_manual": ""
+      },
+      "direct_evidence": [
+        "Bà Chu Vân Hải “tiếp tục gửi đơn xin nghỉ việc” và được quyết định “cho thôi việc”.",
+        "“Sau khi nghỉ việc, bà Hải được hưởng trợ cấp thôi việc hơn 95 triệu đồng.”"
+      ],
+      "reasoning": "Giữ Not relevant: đây là tin hành chính cá nhân về cán bộ xin thôi việc, không phân tích vấn đề lao động hay chính sách áp dụng cho nhóm; phạm vi trợ cấp công chức cần reviewer xác nhận.",
+      "confidence": "Low",
+      "human_review_required": true,
+      "human_decision_needed": true,
+      "human_decision_note": "Bài chủ yếu là thông tin nhân sự hành chính về việc một Phó giám đốc sở xin thôi việc; khoản trợ cấp được nêu cho cá nhân nhưng bài không phân tích chế độ lao động hay chính sách áp dụng cho nhóm người lao động. Cần reviewer quyết định nhất quán phạm vi với công chức và khoản trợ cấp thôi việc."
+    },
+    {
+      "article_id": "VNLAB-003841",
+      "title": "Lương Chủ tịch UBND phường tại TP Hồ Chí Minh sau khi tăng lương là bao nhiêu?",
+      "initial_ai_proposal": {
+        "relevance_manual": "Not relevant",
+        "topic_manual": ""
+      },
+      "audit_conclusion": "RETAINED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Not relevant",
+        "topic_manual": ""
+      },
+      "direct_evidence": [
+        "“Với việc tăng lương cơ sở lên 1,8 triệu đồng/tháng ... mức lương Chủ tịch UBND phường ... lần lượt là 3.870.000 đồng và 4.770.000 đồng.”",
+        "Bài nêu riêng “phụ cấp chức vụ” và tổng lương cùng phụ cấp của Chủ tịch UBND quận."
+      ],
+      "reasoning": "Giữ Not relevant: bài nêu mức lương theo chức danh hành chính riêng, không phân tích chế độ lương lao động cho một nhóm; reviewer cần xác nhận phạm vi lương chức vụ công.",
+      "confidence": "Low",
+      "human_review_required": true,
+      "human_decision_needed": true,
+      "human_decision_note": "Bài tính lương theo chức danh Chủ tịch UBND phường/quận, không bàn chính sách lương hoặc quyền lợi lao động áp dụng cho nhóm người lao động/công chức. Đây là thông tin hành chính về mức lương chức danh cụ thể; reviewer cần xác nhận phạm vi corpus đối với nội dung lương chức vụ công."
+    },
+    {
+      "article_id": "VNLAB-010982",
+      "title": "Công an Đồng Nai chúc Tết, tặng quà cho công nhân Pouchen",
+      "initial_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "C - Tiền lương, bảo hiểm, quyền lợi"
+      },
+      "audit_conclusion": "ADJUSTED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "H - Chính sách việc làm, đào tạo nghề, an sinh xã hội"
+      },
+      "direct_evidence": [
+        "Công an tỉnh trao “300 phần quà (mỗi phần quà trị giá 700.000 đồng) cho các công nhân đang làm việc tại Công ty Pouchen.”",
+        "Bài gọi đây là chương trình “Xuân công nhân”; không nói quà là khoản lương, phúc lợi theo hợp đồng hay quyền lợi do người sử dụng lao động chi trả."
+      ],
+      "reasoning": "Chuyển C sang H: quà tặng một lần từ bên ngoài không phải lương/phúc lợi của người sử dụng lao động; hỗ trợ công nhân là trọng tâm nhưng chỉ liên hệ gián tiếp.",
+      "confidence": "Low",
+      "human_review_required": true,
+      "human_decision_needed": true,
+      "human_decision_note": "Trọng tâm là chương trình tặng quà Tết một lần cho công nhân (300 phần, mỗi phần 700.000 đồng). Đây là hỗ trợ cộng đồng, không phải lương hay phúc lợi do người sử dụng lao động chi trả; H gần hơn C nhưng mức liên quan còn Borderline. Reviewer cần quyết định cách xử lý nhất quán hoạt động hỗ trợ đơn lẻ."
+    },
+    {
+      "article_id": "VNLAB-000693",
+      "title": "Bình Phước: Công nhân vay ‘tín dụng đen’, cán bộ công đoàn bị đe dọa",
+      "initial_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "F - Công đoàn, đình công, tranh chấp lao động"
+      },
+      "audit_conclusion": "RETAINED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "F - Công đoàn, đình công, tranh chấp lao động"
+      },
+      "direct_evidence": [
+        "Người gọi yêu cầu cán bộ công đoàn “báo công nhân trả lại tiền” cho khoản vay cá nhân.",
+        "Hai công nhân nói về khoản vay với công ty tài chính; Liên đoàn Lao động đề nghị bảo vệ cán bộ bị đe dọa."
+      ],
+      "reasoning": "Giữ Borderline/F: Liên đoàn Lao động thực tế đề nghị điều tra và bảo vệ cán bộ công đoàn bị đe dọa, nên đây không phải trường hợp chỉ nhắc tên công đoàn. Tuy nhiên nội dung chính là đe dọa liên quan khoản vay cá nhân, không phải tranh chấp tại nơi làm việc; cần reviewer xác nhận mức liên quan.",
+      "confidence": "Low",
+      "human_review_required": true,
+      "human_decision_needed": true,
+      "human_decision_note": "Liên đoàn Lao động tỉnh đã đề nghị điều tra và bảo vệ cán bộ công đoàn bị đe dọa, nên có hoạt động công đoàn thực tế chứ không chỉ nhắc tên. Tuy nhiên vụ việc bắt nguồn từ các khoản vay cá nhân, không phải tranh chấp tại nơi làm việc; giữ Borderline/F và cần reviewer xác nhận ranh giới."
+    },
+    {
+      "article_id": "VNLAB-008895",
+      "title": "Tài xế công nghệ bị sát hại sau khi nhận cuốc xe 100.000 đồng",
+      "initial_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "E - Điều kiện làm việc, an toàn lao động"
+      },
+      "audit_conclusion": "RETAINED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "E - Điều kiện làm việc, an toàn lao động"
+      },
+      "direct_evidence": [
+        "Bị cáo “nảy sinh ý định cướp tài sản của các tài xế xe ôm” và đặt chuyến xe đến nơi vắng nhằm gây án.",
+        "Nạn nhân là tài xế công nghệ đang thực hiện chuyến xe đã thỏa thuận giá 100.000 đồng."
+      ],
+      "reasoning": "Giữ Borderline E: tài xế bị nhắm mục tiêu trong chuyến xe đang thực hiện, tạo liên hệ an toàn nghề nghiệp trực tiếp; bài vẫn là tin án hình sự không phân tích biện pháp lao động.",
+      "confidence": "Medium",
+      "human_review_required": true,
+      "human_decision_needed": true,
+      "human_decision_note": "Nạn nhân bị chủ động nhắm tới khi đang thực hiện chuyến xe công nghệ, cho thấy rủi ro gắn trực tiếp với công việc. Tuy nhiên bài chỉ tường thuật vụ án, không phân tích điều kiện hay biện pháp an toàn nghề nghiệp nên giữ Borderline E; reviewer cần xác nhận ngưỡng đưa tin hình sự vào phạm vi."
+    },
+    {
+      "article_id": "VNLAB-008407",
+      "title": "3 người đánh shipper ở Đà Nẵng tử vong bị khởi tố tội 'cố ý gây thương tích'",
+      "initial_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "E - Điều kiện làm việc, an toàn lao động"
+      },
+      "audit_conclusion": "RETAINED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "E - Điều kiện làm việc, an toàn lao động"
+      },
+      "direct_evidence": [
+        "Nạn nhân là “nhân viên giao hàng cho một công ty” và khách hàng “phản ánh đến công ty nơi anh Thành làm việc.”",
+        "Sau khi giao hàng và mâu thuẫn với khách, anh Thành quay lại nhà khách lúc đêm; bài tập trung vào diễn biến đánh người và khởi tố hình sự."
+      ],
+      "reasoning": "Giữ Borderline E với độ tin cậy thấp: mâu thuẫn phát sinh từ giao hàng/phản ánh với công ty nhưng hành hung xảy ra sau khi shipper quay lại nhà khách ngoài lúc giao hàng.",
+      "confidence": "Low",
+      "human_review_required": true,
+      "human_decision_needed": true,
+      "human_decision_note": "Mâu thuẫn bắt nguồn từ lần giao hàng và phản ánh của khách với công ty, nhưng vụ hành hung diễn ra sau đó khi shipper quay lại nhà khách, không phải lúc đang giao hàng. Giữ Borderline E vì có liên hệ công việc đáng kể nhưng gián tiếp; reviewer cần quyết định ngưỡng cho sự cố hình sự ngoài ca làm."
+    },
+    {
+      "article_id": "VNLAB-000673",
+      "title": "Tài xế công nghệ phải tuân thủ quyền riêng tư của khách gọi xe",
+      "initial_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "K - Pháp luật lao động và thực thi"
+      },
+      "audit_conclusion": "ADJUSTED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Not relevant",
+        "topic_manual": ""
+      },
+      "direct_evidence": [
+        "Văn bản yêu cầu thực hiện quy định về “thu thập, lưu trữ và xử lý dữ liệu, thông tin cá nhân”.",
+        "Bài nhấn mạnh chống xâm phạm “quyền riêng tư của hành khách”; không đề cập quyền, tiền lương hay điều kiện làm việc của tài xế."
+      ],
+      "reasoning": "Chuyển Borderline K sang Not relevant: nội dung tập trung quyền riêng tư khách hàng, không phải pháp luật lao động.",
+      "confidence": "High",
+      "human_review_required": true,
+      "human_decision_needed": false,
+      "human_decision_note": null
+    },
+    {
+      "article_id": "VNLAB-012710",
+      "title": "Công an xác minh vụ một nhóm người hành hung tài xế công nghệ ở Đắk Lắk",
+      "initial_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "E - Điều kiện làm việc, an toàn lao động"
+      },
+      "audit_conclusion": "RETAINED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "E - Điều kiện làm việc, an toàn lao động"
+      },
+      "direct_evidence": [
+        "Tài xế từ chối chở khách có biểu hiện say xỉn trên quãng đường 16 km vì “lo ngại không đảm bảo an toàn trong quá trình di chuyển bằng xe máy”.",
+        "Sau khi xin hủy chuyến, tài xế bị nhóm người lao vào hành hung."
+      ],
+      "reasoning": "Giữ Borderline E: sự cố trực tiếp phát sinh sau khi tài xế từ chối chuyến vì an toàn; tính đơn lẻ và thiếu phân tích hệ thống ngăn việc nâng lên Relevant.",
+      "confidence": "Medium",
+      "human_review_required": true,
+      "human_decision_needed": false,
+      "human_decision_note": null
+    },
+    {
+      "article_id": "VNLAB-009903",
+      "title": "GMD chào bán hơn 6,3 triệu cổ phiếu giá 10.000 đồng cho người lao động suất sắc",
+      "initial_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "C - Tiền lương, bảo hiểm, quyền lợi"
+      },
+      "audit_conclusion": "RETAINED",
+      "post_audit_ai_proposal": {
+        "relevance_manual": "Borderline",
+        "topic_manual": "C - Tiền lương, bảo hiểm, quyền lợi"
+      },
+      "direct_evidence": [
+        "Gemadept dự kiến chào bán cổ phiếu cho “101 cán bộ, nhân viên có thành tích xuất sắc năm 2024”.",
+        "Bài nói mục đích là “giữ chân và thu hút nguồn nhân lực chất lượng cao” và tạo động lực cho người lao động.",
+        "Phần lớn các đoạn sau bàn thông lượng cảng, triển vọng kinh doanh và giá cổ phiếu GMD."
+      ],
+      "reasoning": "Giữ Borderline C: ESPP là quyền lợi đãi ngộ cho nhân viên, nhưng bài chủ yếu là thông tin tài chính doanh nghiệp.",
+      "confidence": "Medium",
+      "human_review_required": true,
+      "human_decision_needed": true,
+      "human_decision_note": "Chương trình ESPP chào bán cổ phiếu có điều kiện cho nhân viên, nêu rõ mục tiêu giữ chân và tạo động lực, nên là quyền lợi/đãi ngộ thuộc C. Phần lớn bài còn lại tập trung vào hoạt động và triển vọng tài chính của doanh nghiệp, nên mức liên quan lao động là Borderline."
+    }
+  ],
+  "unresolved_human_decisions": [
+    {
+      "article_id": "VNLAB-005536",
+      "question": "Tin thôi việc và trợ cấp của một công chức cấp cao có phải tin lao động hay chỉ là tin nhân sự hành chính cá nhân?"
+    },
+    {
+      "article_id": "VNLAB-003841",
+      "question": "Tin mức lương gắn với một chức danh hành chính cụ thể có nằm trong phạm vi chủ đề tiền lương lao động không?"
+    },
+    {
+      "article_id": "VNLAB-010982",
+      "question": "Hoạt động tặng quà Tết một lần cho công nhân có đủ liên hệ để giữ Borderline/H hay cần loại như hoạt động từ thiện ngoài quan hệ lao động?"
+    },
+    {
+      "article_id": "VNLAB-008895",
+      "question": "Tin án hình sự khi tài xế bị nhắm mục tiêu trong cuốc xe có được tính Borderline/E dù không bàn biện pháp an toàn nghề nghiệp?"
+    },
+    {
+      "article_id": "VNLAB-008407",
+      "question": "Sự cố xảy ra ngoài lúc giao hàng nhưng phát sinh từ lần giao hàng/phản ánh với công ty có đủ liên hệ công việc để giữ Borderline/E không?"
+    },
+    {
+      "article_id": "VNLAB-009903",
+      "question": "Chương trình ESPP có thể được giữ C/Borderline khi phần lớn bài tập trung vào hoạt động tài chính doanh nghiệp không?"
+    },
+    {
+      "article_id": "VNLAB-000693",
+      "question": "Liên đoàn Lao động đã chủ động yêu cầu điều tra và bảo vệ cán bộ công đoàn; hoạt động thực tế này có đủ để giữ Borderline/F dù vụ việc bắt nguồn từ khoản vay cá nhân, không phải tranh chấp lao động không?"
+    }
+  ],
+  "guideline_changes": [
+    {
+      "section": "4. Ranh giới áp dụng giữa các nhóm chủ đề",
+      "clarification": "B là thất nghiệp/mất việc ngoài ý muốn/cắt giảm; D là tự nguyện nghỉ/chuyển việc hoặc chấm dứt quan hệ việc làm.",
+      "reason": "Ngăn việc đồng nhất nghỉ việc tự nguyện với thất nghiệp.",
+      "expected_impact": [
+        "VNLAB-001450"
+      ]
+    },
+    {
+      "section": "4. Ranh giới áp dụng giữa các nhóm chủ đề",
+      "clarification": "Tin về chức danh công quyền không tự động thuộc phạm vi lao động; phân biệt thông tin nhân sự/mức lương chức danh cá nhân với chế độ lương, quyền lợi hoặc điều kiện việc làm cho nhóm.",
+      "reason": "Tạo tiêu chí nhất quán cho tin hành chính cán bộ so với tiền lương/quyền lợi của người lao động.",
+      "expected_impact": [
+        "VNLAB-005536",
+        "VNLAB-003841"
+      ]
+    },
+    {
+      "section": "4. Ranh giới áp dụng giữa các nhóm chủ đề",
+      "clarification": "Nạn nhân là người lao động chưa đủ để gán E; cần liên hệ trực tiếp và đáng kể với nhiệm vụ/tương tác công việc. Tin đơn lẻ thường tối đa Borderline nếu thiếu phân tích an toàn.",
+      "reason": "Tách tin hình sự chỉ nhắc nghề nghiệp khỏi rủi ro phát sinh trực tiếp trong khi làm việc.",
+      "expected_impact": [
+        "VNLAB-008895",
+        "VNLAB-008407",
+        "VNLAB-012710"
+      ]
+    },
+    {
+      "section": "4. Ranh giới áp dụng giữa các nhóm chủ đề",
+      "clarification": "F đòi hỏi hoạt động đại diện, thương lượng, đình công hoặc tranh chấp là nội dung thực chất; chỉ nhắc chức danh công đoàn không đủ.",
+      "reason": "Tránh suy luận topic từ danh tính nhân vật.",
+      "expected_impact": [
+        "VNLAB-000693"
+      ]
+    },
+    {
+      "section": "4. Ranh giới áp dụng giữa các nhóm chủ đề",
+      "clarification": "K chỉ áp dụng cho pháp luật lao động; quy định về quyền riêng tư khách hàng không thành K chỉ vì tài xế phải tuân thủ.",
+      "reason": "Phân biệt quy định ngành/quyền khách hàng với quyền lao động.",
+      "expected_impact": [
+        "VNLAB-000673"
+      ]
+    },
+    {
+      "section": "4. Ranh giới áp dụng giữa các nhóm chủ đề",
+      "clarification": "Quà tặng một lần ngoài quan hệ lao động không phải lương/phúc lợi do chủ sử dụng lao động chi trả; H/Borderline có thể cân nhắc nếu hỗ trợ công nhân là trọng tâm.",
+      "reason": "Tách đãi ngộ lao động khỏi hỗ trợ cộng đồng đơn lẻ.",
+      "expected_impact": [
+        "VNLAB-010982"
+      ]
+    }
+  ],
+  "integrity": {
+    "batch_01_csv_modified": false,
+    "master_sample_modified": false,
+    "reviewer_id_or_date_added": false,
+    "review_status_changed": false,
+    "proposal_file_updated_only_for_ai_suggestions": true,
+    "proposal_sha256_before": "22232f1c53a81268de11b1263934df5061bcce85db89a9738f8bf5002850af77",
+    "proposal_sha256_after": "b0cf860d2328162bc8c07e998e551ab938699a7f4c66cc117d51a96fc9d4ccb3"
+  },
+  "verification": {
+    "batch_01": {
+      "rows": 50,
+      "unique_ids": 50,
+      "matches_master_rows_1_50": true,
+      "exact_schema": true,
+      "manual_fields_blank": true,
+      "all_pending": true,
+      "human_confirmed_labels_added": false,
+      "sha256": "cdc485ef53ac6f13023243c30cb21ac9a2157b10a6d8c7d7dd4e393634a192df"
+    },
+    "batch_02": {
+      "rows": 50,
+      "unique_ids": 50,
+      "matches_master_rows_51_100": true,
+      "disjoint_from_batch_01": true,
+      "exact_schema": true,
+      "manual_fields_blank": true,
+      "all_pending": true,
+      "report_batch_number": 2,
+      "source_sample_sha256": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c",
+      "sha256": "8120022d2aa665de5ea5a5da8cb51d92697eb7bf04c2b8849b47df7924f1dbc3"
+    },
+    "batch_01_proposals": {
+      "rows": 50,
+      "matches_batch_01_order": true,
+      "human_review_required_rows": 50,
+      "sha256": "b0cf860d2328162bc8c07e998e551ab938699a7f4c66cc117d51a96fc9d4ccb3"
+    },
+    "source_and_p402_p407_protected_sha256": {
+      "1_du_lieu_chinh/vn_labor_news_dataset.csv": "90a1c4a4e6cd70f27df2ec15e58b4183990a398ed2a2730de2c0302bdedf6f41",
+      "5_process/data/interim/relevance_review_sample.csv": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c",
+      "5_process/data/interim/relevance_results.csv": "9d6284cccb3d8662653ae3c9b84697a132ae49fe60f46ae06060c248d1d525db",
+      "5_process/reports/relevance_rule_report.json": "5342cf1098ccd91ae903ceef5d44f4356582567ba8935792962979cd3685a784",
+      "5_process/data/interim/url_duplicate_candidates.csv": "aa0e92d15729c937493a3220ebccd9f84884027904983a777bca8eaf9eb08643",
+      "5_process/data/interim/exact_duplicate_candidates.csv": "946f61b44461cd288e32417ea4984fdbce4cd28d85e8197ac9a5f9738aafc24d",
+      "5_process/data/interim/near_duplicate_candidates.csv": "636769dc6900f0e3561e4cc66b7e66775a3b7d94a405ad8eaf83eba0e38d608f",
+      "5_process/data/interim/duplicate_groups.csv": "334900b986819225fa4bf1b813f8217163f811ad8e2c3d73391f2697547b4b8e",
+      "5_process/reports/exact_duplicate_report.json": "044d4e83a2a56fb2dd078cd330e4e65b98f857d93ea48002c529308989b7ce64",
+      "5_process/reports/near_duplicate_report.json": "478ba80963addb6b27a8055ca0dc55ff25f66d7342f49592143928be62a1bc45",
+      "5_process/reports/duplicate_grouping_report.json": "9fcd2492d35126b7fb738d398578792e0e34318d9e652e765dae2cae2fcc8c90",
+      "5_process/config/duplicate_taxonomy.md": "5234c88f6fc12e018b9d5bf249efb18855b3e1929c2f38e43af7bfca8bc3d45c",
+      "5_process/config/relevance_taxonomy.md": "b64f7833c21151a26a7099676fe538dcdf03da0d9afc3cc357d5326743f820d4",
+      "5_process/src/detect_url_duplicates.py": "1b5d95f408b5a7adcf4e8b282ca73b1b1aedfaff2b9c239d8890e89a8c63dcbf",
+      "5_process/src/detect_exact_duplicates.py": "cf23a9e05562e8749b26252cfa9a530951a77d0f66683ebf22a8e1be0bd2210b",
+      "5_process/src/detect_near_duplicates.py": "b2425b0bca106a8a876a97036709505b6361b0ec985983a91be9a0cf37a93e89",
+      "5_process/src/group_duplicate_candidates.py": "4932579b06f8d90cfd63811cb46e70d65b60c30965c70f4490a0c7bab257b479",
+      "5_process/src/classify_relevance_rules.py": "935f3b4668dd29751c8ef430ad5e4b5fcd56de00773c89509169e4133dcf6cd5"
+    },
+    "tests": {
+      "focused_batch_tests": "15 passed",
+      "full_process_suite": "158 passed",
+      "git_diff_check": "passed"
+    }
+  }
+}

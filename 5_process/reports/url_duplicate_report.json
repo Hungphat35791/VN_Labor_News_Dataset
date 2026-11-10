@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:00.221886+00:00",
+  "input_file": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\1_du_lieu_chinh\\vn_labor_news_dataset.csv",
+  "input_sha256": "90a1c4a4e6cd70f27df2ec15e58b4183990a398ed2a2730de2c0302bdedf6f41",
+  "input_article_count": 12784,
+  "candidate_file": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\data\\interim\\url_duplicate_candidates.csv",
+  "candidate_sha256": "aa0e92d15729c937493a3220ebccd9f84884027904983a777bca8eaf9eb08643",
+  "detector_version": "1.0.0",
+  "method": "url_normalization_v1",
+  "candidate_pair_count": 0,
+  "invalid_url_count": 0,
+  "status": "NO_CANDIDATES_FOUND"
+}

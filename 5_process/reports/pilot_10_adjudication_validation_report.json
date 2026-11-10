@@ -1,0 +1,16 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:03.873174+00:00",
+  "status": "NO_ADJUDICATION_CASES",
+  "queue_case_count": 0,
+  "form_case_count": 0,
+  "status_counts": {
+    "PENDING": 0,
+    "ADJUDICATED": 0,
+    "NEEDS_ADJUDICATION": 0
+  },
+  "reviewer_1_sheet_sha256": "29f3f18da8b51a57477b76b7924144000a2e0e3869180511d9e0f772c7cb1e69",
+  "reviewer_2_sheet_sha256": "29f3f18da8b51a57477b76b7924144000a2e0e3869180511d9e0f772c7cb1e69",
+  "queue_sha256": "e9aae2277f1e699d8070ac7fa7ae4a02ac749ecaa06617fd94d10355232b9b77",
+  "form_sha256": "e9aae2277f1e699d8070ac7fa7ae4a02ac749ecaa06617fd94d10355232b9b77",
+  "note": "Pilot 10 adjudication is separate from P4.06 and never creates P4.09 gold."
+}

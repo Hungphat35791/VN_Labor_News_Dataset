@@ -1,0 +1,49 @@
+{
+  "generated_at_utc": "2026-11-09T11:34:14.979613+00:00",
+  "input_row_count": 12784,
+  "source_row_count": 12784,
+  "available_count_by_status": {
+    "RELEVANT": 10240,
+    "IRRELEVANT": 220,
+    "REVIEW_REQUIRED": 2324
+  },
+  "requested_sample_count_by_status": {
+    "RELEVANT": 200,
+    "IRRELEVANT": 220,
+    "REVIEW_REQUIRED": 200
+  },
+  "sampled_count_by_status": {
+    "RELEVANT": 200,
+    "IRRELEVANT": 220,
+    "REVIEW_REQUIRED": 200
+  },
+  "shortfall_by_status": {},
+  "total_sample_size": 620,
+  "random_seed": 42,
+  "unique_article_id_count": 620,
+  "review_schema": [
+    "article_id",
+    "title",
+    "content",
+    "relevance_manual",
+    "topic_manual",
+    "review_reason",
+    "reviewer_id",
+    "review_date",
+    "review_status"
+  ],
+  "manual_taxonomy": "A-L as defined in 5_process/config/labeling_guideline.md",
+  "initial_review_status": "PENDING",
+  "sampling_rule": "For each P4.07 relevance_status, select min(requested, available) distinct article IDs using random.Random(random_seed).sample, then shuffle the combined sample with the same seeded generator. Article title/content are joined from the authoritative source CSV by article_id. Predicted status and topic labels are not included in the reviewer CSV.",
+  "complete": true,
+  "limitations": [
+    "Sampling strata are based on P4.07 rule-based predictions, not gold labels.",
+    "The review sample is an audit sample, not a representative sample of natural class distribution.",
+    "This sample cannot establish corpus-wide prevalence or unbiased performance metrics without an appropriate sampling design and reliable reference labels.",
+    "Do not calculate Accuracy, Precision, Recall, or F1 without a trustworthy adjudicated gold set."
+  ],
+  "source_file": "1_du_lieu_chinh\\vn_labor_news_dataset.csv",
+  "results_file": "5_process\\data\\interim\\relevance_results.csv",
+  "source_sha256": "90a1c4a4e6cd70f27df2ec15e58b4183990a398ed2a2730de2c0302bdedf6f41",
+  "results_sha256": "9d6284cccb3d8662653ae3c9b84697a132ae49fe60f46ae06060c248d1d525db"
+}

@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:03.260820+00:00",
+  "status": "WAITING_FOR_HUMAN_REVIEW",
+  "pilot_article_count": 10,
+  "valid_completed_by_both_count": 0,
+  "agreement_count": 0,
+  "relevance_disagreement_count": 0,
+  "topic_disagreement_count": 0,
+  "relevance_and_topic_disagreement_count": 0,
+  "reviewer_requested_adjudication_count": 0,
+  "not_comparable_or_missing_count": 10,
+  "adjudication_queue_count": 0,
+  "agreement_metrics": {
+    "relevance": {
+      "agreement_count": 0,
+      "comparable_count": 0,
+      "raw_agreement": null
+    },
+    "topics_among_both_relevant_or_borderline": {
+      "agreement_count": 0,
+      "comparable_count": 0,
+      "raw_agreement": null
+    }
+  },
+  "gold_eligible_count": 0,
+  "note": "Pilot 10 uses the manual A-L taxonomy, is purposive and not statistically representative, and is never imported into P4.06 gold. Project approval is required after review."
+}

@@ -1,0 +1,164 @@
+{
+  "report_type": "purposeful_pilot_article_selection",
+  "generated_at": "2026-11-09T20:24:10+07:00",
+  "sample_design": "Purposive 10-article pilot; not statistically representative and not for population inference.",
+  "selection_source": "1_du_lieu_chinh/vn_labor_news_dataset.csv (canonical dataset)",
+  "selection_method": "Used the ten user-prioritized article IDs in the requested order; verified each occurs once and has non-empty title and full content in the canonical dataset.",
+  "guideline": "5_process/config/labeling_guideline.md (current official guideline; not modified)",
+  "articles": [
+    {
+      "article_id": "VNLAB-001450",
+      "title": "Bộ GD-ĐT đề xuất gì trước tình trạng giáo viên nghỉ việc?",
+      "content_characters": 8064,
+      "selection_scenarios": [
+        "direct_labor",
+        "voluntary_exit_vs_job_loss",
+        "competing_topics"
+      ],
+      "selection_reason": "Bài phân tích việc giáo viên nghỉ/chuyển việc cùng nguyên nhân về lương, áp lực, điều kiện công tác và chính sách giữ chân; giúp kiểm tra phân biệt nghỉ việc với thất nghiệp và chọn trọng tâm giữa các topic."
+    },
+    {
+      "article_id": "VNLAB-005536",
+      "title": "Phó giám đốc Sở KH-CN TP.HCM xin thôi việc",
+      "content_characters": 1348,
+      "selection_scenarios": [
+        "public_sector_employment",
+        "individual_resignation_and_severance"
+      ],
+      "selection_reason": "Bài tường thuật một công chức xin thôi việc theo nguyện vọng và trợ cấp cá nhân; dùng để kiểm tra ranh giới giữa nội dung việc làm khu vực công và tin nhân sự hành chính cá nhân."
+    },
+    {
+      "article_id": "VNLAB-003841",
+      "title": "Lương Chủ tịch UBND phường tại TP Hồ Chí Minh sau khi tăng lương là bao nhiêu?",
+      "content_characters": 3772,
+      "selection_scenarios": [
+        "public_sector_employment",
+        "official_salary_vs_labor_policy"
+      ],
+      "selection_reason": "Bài tính lương/hệ số/phụ cấp của chức danh Chủ tịch UBND cụ thể; đối chiếu tin tiền lương công chức với phạm vi chính sách lao động áp dụng rộng hơn."
+    },
+    {
+      "article_id": "VNLAB-010982",
+      "title": "Công an Đồng Nai chúc Tết, tặng quà cho công nhân Pouchen",
+      "content_characters": 1856,
+      "selection_scenarios": [
+        "one_time_community_support",
+        "benefit_vs_charity",
+        "borderline_boundary"
+      ],
+      "selection_reason": "Bài tập trung chương trình tặng quà một lần cho 300 công nhân do Công an tỉnh tổ chức; kiểm tra hỗ trợ cộng đồng có phải quyền lợi/an sinh lao động và mức liên hệ gián tiếp."
+    },
+    {
+      "article_id": "VNLAB-000693",
+      "title": "Bình Phước: Công nhân vay ‘tín dụng đen’, cán bộ công đoàn bị đe dọa",
+      "content_characters": 1641,
+      "selection_scenarios": [
+        "union_role",
+        "personal_debt_vs_labor_representation"
+      ],
+      "selection_reason": "Bài kể khoản vay cá nhân của công nhân dẫn đến đe dọa cán bộ công đoàn, trong khi Liên đoàn Lao động đề nghị bảo vệ; kiểm tra hoạt động công đoàn thực chất và nexus lao động."
+    },
+    {
+      "article_id": "VNLAB-008895",
+      "title": "Tài xế công nghệ bị sát hại sau khi nhận cuốc xe 100.000 đồng",
+      "content_characters": 1888,
+      "selection_scenarios": [
+        "work_related_crime",
+        "targeted_during_active_trip",
+        "occupational_safety"
+      ],
+      "selection_reason": "Bị cáo nhắm vào tài xế xe ôm và gây án trong chuyến xe đang thực hiện; kiểm tra liên hệ giữa tội phạm và rủi ro công việc khi bài chủ yếu là tin hình sự."
+    },
+    {
+      "article_id": "VNLAB-008407",
+      "title": "3 người đánh shipper ở Đà Nẵng tử vong bị khởi tố tội 'cố ý gây thương tích'",
+      "content_characters": 2598,
+      "selection_scenarios": [
+        "work_related_crime",
+        "incident_after_delivery",
+        "causal_nexus"
+      ],
+      "selection_reason": "Mâu thuẫn bắt đầu từ giao hàng và phản ánh tới công ty, nhưng vụ hành hung diễn ra sau đó khi nhân viên quay lại nhà khách; kiểm tra ranh giới về sự kiện ngoài nhiệm vụ."
+    },
+    {
+      "article_id": "VNLAB-000673",
+      "title": "Tài xế công nghệ phải tuân thủ quyền riêng tư của khách gọi xe",
+      "content_characters": 2114,
+      "selection_scenarios": [
+        "non_labor_regulation",
+        "customer_privacy",
+        "not_relevant_vs_uncertain"
+      ],
+      "selection_reason": "Nội dung đầy đủ tập trung vào quyền riêng tư hành khách và quy định dữ liệu áp dụng cho tài xế; là đối chứng để phân biệt nội dung ngoài phạm vi đã đủ bằng chứng với bất định chỉ do có nhắc đến nghề nghiệp/quy định."
+    },
+    {
+      "article_id": "VNLAB-012710",
+      "title": "Công an xác minh vụ một nhóm người hành hung tài xế công nghệ ở Đắk Lắk",
+      "content_characters": 1179,
+      "selection_scenarios": [
+        "work_related_crime",
+        "safety_refusal_during_trip"
+      ],
+      "selection_reason": "Tài xế bị hành hung sau khi từ chối chuyến vì lo ngại an toàn; kiểm tra sự kiện bạo lực gắn trực tiếp với quyết định và tương tác trong lúc làm việc."
+    },
+    {
+      "article_id": "VNLAB-009903",
+      "title": "GMD chào bán hơn 6,3 triệu cổ phiếu giá 10.000 đồng cho người lao động suất sắc",
+      "content_characters": 3471,
+      "selection_scenarios": [
+        "employee_share_offer",
+        "employee_benefit_vs_corporate_finance",
+        "competing_topics"
+      ],
+      "selection_reason": "Bài nêu chương trình chào bán cổ phiếu có điều kiện cho nhân viên rồi chuyển phần lớn sang kết quả/triển vọng doanh nghiệp; kiểm tra quyền lợi nhân viên và trọng tâm bài đa chủ đề."
+    }
+  ],
+  "unresolved_policy_questions_to_observe_not_resolve": [
+    {
+      "question": "Borderline versus Uncertain, and how to distinguish incomplete evidence from reviewer difficulty selecting a topic.",
+      "article_ids": [
+        "VNLAB-000673",
+        "VNLAB-008407",
+        "VNLAB-009903"
+      ]
+    },
+    {
+      "question": "Whether a criminal incident has a substantive work nexus, including an incident after a work interaction.",
+      "article_ids": [
+        "VNLAB-008895",
+        "VNLAB-008407",
+        "VNLAB-012710"
+      ]
+    },
+    {
+      "question": "Scope of individual public-sector resignation, severance, and official salary reporting.",
+      "article_ids": [
+        "VNLAB-005536",
+        "VNLAB-003841",
+        "VNLAB-001450"
+      ]
+    },
+    {
+      "question": "Distinguishing worker benefits/social protection from one-time charity or community support; possible competing primary topics.",
+      "article_ids": [
+        "VNLAB-010982",
+        "VNLAB-009903",
+        "VNLAB-000693"
+      ]
+    }
+  ],
+  "insufficient_or_missing_articles": [],
+  "annotation_prepared": false,
+  "ai_proposals_used_as_labels": false,
+  "reviewer_assignments": {
+    "reviewer_1": null,
+    "reviewer_2": null
+  },
+  "protected_input_sha256": {
+    "1_du_lieu_chinh/vn_labor_news_dataset.csv": "90a1c4a4e6cd70f27df2ec15e58b4183990a398ed2a2730de2c0302bdedf6f41",
+    "5_process/data/interim/relevance_review_sample.csv": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c",
+    "5_process/data/interim/relevance_review_batch_01.csv": "cdc485ef53ac6f13023243c30cb21ac9a2157b10a6d8c7d7dd4e393634a192df",
+    "5_process/data/interim/relevance_review_batch_02.csv": "8120022d2aa665de5ea5a5da8cb51d92697eb7bf04c2b8849b47df7924f1dbc3",
+    "5_process/config/labeling_guideline.md": "49983c55f820cc092652ff33c7642717f3e2cd309745a0007969e97b6398a849"
+  }
+}

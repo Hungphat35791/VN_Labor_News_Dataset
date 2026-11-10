@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:01.979346+00:00",
+  "status": "WAITING_FOR_DUPLICATE_REVIEW",
+  "candidate_pair_count": 70,
+  "valid_reviewed_by_both_count": 0,
+  "agreement_count": 0,
+  "decision_disagreement_count": 0,
+  "relationship_type_disagreement_count": 0,
+  "not_comparable_or_pending_count": 70,
+  "adjudication_queue_count": 0,
+  "confirmed_duplicate_count": 0,
+  "confirmed_version_lineage_count": 0,
+  "confirmation_basis": "Two independent reviewers agree on CONFIRMED_DUPLICATE and the same relationship type; version lineage additionally requires evidence from both.",
+  "agreement_metrics": {
+    "decision": {
+      "agreement_count": 0,
+      "comparable_count": 0,
+      "raw_agreement": null
+    },
+    "relationship_type_among_both_confirmed": {
+      "agreement_count": 0,
+      "comparable_count": 0,
+      "raw_agreement": null
+    }
+  }
+}

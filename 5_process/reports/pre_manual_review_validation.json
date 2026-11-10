@@ -1,0 +1,242 @@
+{
+  "report_type": "Pre-manual review validation",
+  "generated_at": "2026-11-09",
+  "scope": {
+    "batches": [
+      "5_process/data/interim/relevance_review_batch_01.csv",
+      "5_process/data/interim/relevance_review_batch_02.csv"
+    ],
+    "proposal_file": "5_process/data/interim/relevance_review_batch_01_proposals.csv",
+    "guideline": "5_process/config/labeling_guideline.md",
+    "prior_audit": "5_process/reports/relevance_review_batch_01_final_quality_report.json",
+    "batch_02_report": "5_process/reports/relevance_review_batch_02_report.json"
+  },
+  "conclusion": {
+    "ready_for_independent_manual_annotation": false,
+    "reason": "Các batch đạt kiểm tra cấu trúc, nhưng cần thống nhất trước một số ranh giới nhãn để tránh quyết định không nhất quán. Có thể bắt đầu một vòng hiệu chuẩn nhỏ, chưa chốt nhãn, sau khi người phụ trách thống nhất quy tắc.",
+    "ai_proposals_are_ground_truth": false
+  },
+  "structural_validation": {
+    "master_sample": {
+      "row_count": 620,
+      "unique_article_ids": 620,
+      "sha256": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c"
+    },
+    "required_schema": [
+      "article_id",
+      "title",
+      "content",
+      "relevance_manual",
+      "topic_manual",
+      "review_reason",
+      "reviewer_id",
+      "review_date",
+      "review_status"
+    ],
+    "batch_01": {
+      "rows": 50,
+      "unique_ids": 50,
+      "schema_and_order_valid": true,
+      "ids_match_master_positions_1_to_50": true,
+      "manual_annotation_fields_blank": true,
+      "all_review_status_pending": true,
+      "sha256": "cdc485ef53ac6f13023243c30cb21ac9a2157b10a6d8c7d7dd4e393634a192df"
+    },
+    "batch_02": {
+      "rows": 50,
+      "unique_ids": 50,
+      "schema_and_order_valid": true,
+      "ids_match_master_positions_51_to_100": true,
+      "disjoint_from_batch_01": true,
+      "manual_annotation_fields_blank": true,
+      "all_review_status_pending": true,
+      "ids_match_batch_02_report": true,
+      "sha256": "8120022d2aa665de5ea5a5da8cb51d92697eb7bf04c2b8849b47df7924f1dbc3"
+    }
+  },
+  "batch_01_proposal_validation": {
+    "proposal_count": 50,
+    "proposal_ids_unique": true,
+    "proposal_ids_match_batch_01_order": true,
+    "proposal_labels": {
+      "Relevant": 25,
+      "Borderline": 8,
+      "Not relevant": 17,
+      "Uncertain": 0
+    },
+    "proposal_topics": {
+      "A": 1,
+      "B": 1,
+      "C": 11,
+      "D": 3,
+      "E": 4,
+      "F": 3,
+      "H": 6,
+      "I": 1,
+      "J": 2,
+      "L": 1
+    },
+    "confidence": {
+      "High": 30,
+      "Medium": 12,
+      "Low": 8
+    },
+    "valid_label_topic_combinations": true,
+    "all_marked_needs_human_review": true,
+    "proposals_separate_from_manual_batch": true,
+    "manual_batch_was_not_populated_from_proposals": true,
+    "low_confidence_article_ids": [
+      "VNLAB-004952",
+      "VNLAB-000693",
+      "VNLAB-010982",
+      "VNLAB-003841",
+      "VNLAB-004968",
+      "VNLAB-008407",
+      "VNLAB-011151",
+      "VNLAB-005536"
+    ],
+    "all_proposals_still_require_human_confirmation": true
+  },
+  "semantic_consistency_findings": {
+    "prior_ten_article_audit": {
+      "adjusted_ai_proposals": 3,
+      "retained_ai_proposals": 7,
+      "human_review_required_for_all_ten": true,
+      "unresolved_scope_decisions": [
+        {
+          "article_id": "VNLAB-005536",
+          "issue": "Cá nhân là công chức xin thôi việc; cần xác định nhất quán phạm vi với tin nhân sự hành chính và trợ cấp cá nhân."
+        },
+        {
+          "article_id": "VNLAB-003841",
+          "issue": "Mức lương gắn với một chức danh hành chính; cần phân biệt tin lương chính sách cho nhóm với tin mức lương cá nhân/chức vụ."
+        },
+        {
+          "article_id": "VNLAB-010982",
+          "issue": "Quà Tết một lần cho công nhân; cần thống nhất khi nào là hỗ trợ lao động đáng kể (H/Borderline) và khi nào chỉ là hoạt động thiện nguyện."
+        },
+        {
+          "article_id": "VNLAB-008895",
+          "issue": "Tài xế bị nhắm mục tiêu trong chuyến xe; cần ngưỡng nhất quán cho tin hình sự gắn trực tiếp với nhiệm vụ nhưng không bàn biện pháp an toàn."
+        },
+        {
+          "article_id": "VNLAB-008407",
+          "issue": "Sự cố xảy ra ngoài lúc giao hàng nhưng phát sinh từ lần giao hàng/phản ánh với công ty; cần xác định mức liên hệ công việc cần có để xếp E/Borderline."
+        },
+        {
+          "article_id": "VNLAB-009903",
+          "issue": "ESPP được nhắc trong bài thiên về tài chính doanh nghiệp; cần ngưỡng để coi quyền lợi cổ phiếu là trọng tâm lao động C."
+        },
+        {
+          "article_id": "VNLAB-000693",
+          "issue": "Công đoàn có hành động điều tra/bảo vệ cán bộ, nhưng sự việc bắt nguồn từ khoản vay cá nhân; cần xác định hoạt động đại diện thực chất có đủ để chọn F hay không."
+        }
+      ],
+      "cross_case_consistency": [
+        "VNLAB-001450 được điều chỉnh từ B sang D vì nội dung nói đến giáo viên chuyển việc/nghỉ việc, không phải thất nghiệp hay mất việc ngoài ý muốn.",
+        "VNLAB-010982 được điều chỉnh mức liên quan nhưng vẫn cần người quyết định ranh giới giữa hỗ trợ công nhân và hoạt động quà tặng một lần.",
+        "VNLAB-000673 được giữ Not relevant vì trọng tâm là quyền riêng tư/dữ liệu hành khách, không phải quyền lao động của tài xế.",
+        "Các ca công chức VNLAB-005536 và VNLAB-003841 cần áp dụng cùng tiêu chuẩn với bài chính sách áp dụng cho nhóm, không suy rộng từ một cá nhân."
+      ]
+    },
+    "additional_cases_for_human_attention": [
+      {
+        "article_ids": [
+          "VNLAB-008880",
+          "VNLAB-009945",
+          "VNLAB-004968",
+          "VNLAB-008895",
+          "VNLAB-008407",
+          "VNLAB-012710"
+        ],
+        "issue": "Các đề xuất phân biệt chưa đồng nhất giữa tin hình sự liên quan người làm nhiệm vụ (shipper/tài xế), sự cố phát sinh từ công việc và sự cố chỉ tình cờ có nạn nhân làm nghề đó. Cần reviewer đánh giá quan hệ nhân quả với nhiệm vụ, không chỉ nghề nghiệp."
+      },
+      {
+        "article_ids": [
+          "VNLAB-005536",
+          "VNLAB-003841",
+          "VNLAB-009389",
+          "VNLAB-012218"
+        ],
+        "issue": "Cần phân biệt tin hành chính về một cán bộ với chính sách việc làm/điều chuyển/tinh giản áp dụng cho một nhóm người trong khu vực công."
+      },
+      {
+        "article_ids": [
+          "VNLAB-006996",
+          "VNLAB-004239",
+          "VNLAB-010307",
+          "VNLAB-011151",
+          "VNLAB-010982"
+        ],
+        "issue": "Cần phân định quà tặng/thiện nguyện một lần, quyền lợi do quan hệ lao động, hỗ trợ có chủ đích cho người lao động và chương trình/chính sách an sinh. Không gán C hoặc H chỉ vì người nhận là công nhân."
+      },
+      {
+        "article_ids": [
+          "VNLAB-004574",
+          "VNLAB-001095",
+          "VNLAB-010191",
+          "VNLAB-000693"
+        ],
+        "issue": "Có chủ đề cạnh tranh giữa giờ làm và lương (E/C), hoạt động công đoàn và quyền lợi/hỗ trợ (F/C/H). Chọn một topic theo trọng tâm bài, nêu topic cạnh tranh trong lý do."
+      },
+      {
+        "article_ids": [
+          "VNLAB-004952",
+          "VNLAB-009591",
+          "VNLAB-011151"
+        ],
+        "issue": "Cần đọc trọng tâm và độ cụ thể của tác động việc làm để phân biệt Relevant với Borderline; riêng VNLAB-009591 có đề xuất chuyển đổi phương tiện và hỗ trợ tài xế, topic H cần được đối chiếu với A/J nếu bài nhấn mạnh thị trường/ngành."
+      }
+    ]
+  },
+  "guideline_ambiguities": [
+    {
+      "issue": "Mục 2 cho biết nếu không phân biệt được topic chính thì chọn Uncertain; mục 3 lại nói không dùng Uncertain chỉ vì khó phân loại topic.",
+      "risk": "Hai reviewer có thể dùng Uncertain khác nhau cho cùng một bài dù bằng chứng về relevance đủ rõ.",
+      "rule_to_agree": "Uncertain chỉ dùng khi nội dung thiếu, mâu thuẫn hoặc bằng chứng không đủ để quyết định relevance. Nếu relevance đã rõ nhưng topic cạnh tranh, chọn topic phản ánh trọng tâm chính; ghi topic cạnh tranh trong review_reason hoặc chuyển adjudication theo quy trình."
+    },
+    {
+      "issue": "Borderline được mô tả là liên hệ đáng kể nhưng gián tiếp, nhưng chưa có tiêu chí vận hành thống nhất cho một vụ việc đơn lẻ gắn trực tiếp với công việc, hỗ trợ cộng đồng cho người lao động, hoặc một bài có chủ đề lao động phụ nhưng nội dung chính rộng hơn.",
+      "risk": "Có thể có quyết định Relevant/Borderline/Not relevant khác nhau giữa các reviewer.",
+      "rule_to_agree": "Xác định mức độ trung tâm của nội dung lao động, tính trực tiếp của liên hệ công việc/chính sách, và tỷ trọng bài viết trước khi chọn nhãn; ghi lại ví dụ đã adjudicate làm chuẩn."
+    },
+    {
+      "issue": "Mục hướng dẫn về công chức và hoạt động công đoàn đưa ra nguyên tắc chung nhưng các ca cá nhân và các ca hỗ trợ/đại diện hỗn hợp vẫn đòi hỏi ranh giới rõ.",
+      "risk": "Có thể mở rộng phạm vi dự án từ tin về chính sách/quan hệ việc làm sang tin nhân sự cá nhân hoặc sự kiện xã hội.",
+      "rule_to_agree": "Chỉ tính tin công chức khi bài tập trung vào điều kiện/chính sách việc làm có tính nhóm hoặc quan hệ lao động thực chất; chỉ chọn F khi hoạt động đại diện, thương lượng, tranh chấp hoặc bảo vệ quyền lao động là nội dung thực chất."
+    }
+  ],
+  "rules_to_align_before_annotation": [
+    "Chốt cách dùng Uncertain và không dùng nhãn này thay cho khó khăn chọn topic.",
+    "Chốt ngưỡng Relevant/Borderline cho tin hình sự phát sinh trong, sau, hoặc vì một nhiệm vụ lao động.",
+    "Chốt phạm vi tin công chức: chính sách theo nhóm so với lương/trợ cấp hoặc quyết định nhân sự cá nhân.",
+    "Chốt phân biệt quyền lợi lao động C, hỗ trợ/an sinh H, hoạt động đại diện F và thiện nguyện ngoài quan hệ lao động.",
+    "Chốt cách chọn topic chính khi bài cùng bàn lương/giờ làm hoặc hoạt động công đoàn/quyền lợi.",
+    "Giữ nguyên tắc rằng mọi đề xuất AI chỉ là gợi ý; người review tự đọc bài trước khi xem hoặc đối chiếu đề xuất."
+  ],
+  "recommended_manual_review_process": [
+    "Trước khi gán nhãn, hai reviewer thống nhất các quy tắc trên bằng các ca hiệu chuẩn, đặc biệt các article_id được nêu trong báo cáo; chưa ghi kết quả vào CSV.",
+    "Mỗi reviewer đọc độc lập toàn bộ title và content, ghi một nhãn và tối đa một topic, kèm bằng chứng cụ thể; không xem dự đoán P4.07 như ground truth.",
+    "Dùng Uncertain khi thiếu/mâu thuẫn bằng chứng để quyết định relevance; dùng quy trình phân xử cho bất đồng thay vì tự tạo nhãn hoặc topic mới.",
+    "Đối chiếu các quyết định độc lập, ghi nhận bất đồng và lý do, rồi cập nhật ví dụ/định nghĩa chung trước khi mở rộng review.",
+    "Chỉ điền reviewer_id, review_date và chuyển review_status khỏi PENDING sau khi người thật hoàn tất và chấp thuận quyết định."
+  ],
+  "integrity": {
+    "no_labels_changed": true,
+    "batch_01_or_batch_02_modified": false,
+    "master_sample_modified": false,
+    "proposal_file_modified": false,
+    "guideline_modified": false,
+    "batch_01_sha256": "cdc485ef53ac6f13023243c30cb21ac9a2157b10a6d8c7d7dd4e393634a192df",
+    "proposal_file_sha256": "b0cf860d2328162bc8c07e998e551ab938699a7f4c66cc117d51a96fc9d4ccb3",
+    "batch_02_sha256": "8120022d2aa665de5ea5a5da8cb51d92697eb7bf04c2b8849b47df7924f1dbc3",
+    "guideline_sha256": "49983c55f820cc092652ff33c7642717f3e2cd309745a0007969e97b6398a849",
+    "batch_01_final_quality_report_sha256": "cdff37be1dc0b15ad9fa5a8d8f5eb36bd44c54eb89dc84a6675ab1cf76976d6c",
+    "batch_02_report_sha256": "63d60b2a862a1f4f7d48405b15b4f130c7df35cd22293a23a6cb86d796cbcd1d"
+  },
+  "validation_commands": {
+    "focused_test": "python -m unittest 5_process/tests/test_create_relevance_review_batch.py -v",
+    "git_diff_check": "git diff --check",
+    "results": "Pending"
+  }
+}

@@ -228,22 +228,28 @@ def sha256_file(path: Path) -> str:
 def near_duplicate_pairs(contents: list[str], threshold: float = 0.85, chunk: int = 400):
     """Cặp bài nghi GẦN trùng nội dung: cosine TF-IDF (từ + bigram) >= threshold. Chỉ để review."""
     from sklearn.feature_extraction.text import TfidfVectorizer
-    n = len(contents)
+    if not 0 <= threshold <= 1:
+        raise ValueError("threshold must be between 0 and 1.")
+    valid = [(i, normalize_text(content)) for i, content in enumerate(contents)]
+    valid = [(i, content) for i, content in valid if content.strip()]
+    n = len(valid)
     if n < 2:
         return []
     vec = TfidfVectorizer(ngram_range=(1, 2), min_df=2, max_df=0.5 if n >= 50 else 1.0,
                           sublinear_tf=True, lowercase=True)
     try:
-        X = vec.fit_transform([normalize_text(c) for c in contents]).tocsr()
+        X = vec.fit_transform([content for _, content in valid]).tocsr()
     except ValueError:  # từ vựng rỗng (tập quá nhỏ)
         return []
     pairs = []
     for i in range(0, n, chunk):
-        sim = (X[i:i + chunk] @ X.T).toarray()
-        for r in range(sim.shape[0]):
-            sim[r, : i + r + 1] = 0  # chỉ lấy j > i, bỏ chính nó
-        rr, cc = (sim >= threshold).nonzero()
-        pairs += [(i + a, int(b), float(sim[a, b])) for a, b in zip(rr, cc)]
+        sim = (X[i:i + chunk] @ X.T).tocsr()
+        for row_offset in range(sim.shape[0]):
+            row = sim.getrow(row_offset)
+            left = i + row_offset
+            for right, score in zip(row.indices, row.data):
+                if right > left and score >= threshold:
+                    pairs.append((valid[left][0], valid[int(right)][0], float(score)))
     return pairs
 
 

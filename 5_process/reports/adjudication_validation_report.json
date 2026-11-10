@@ -1,0 +1,19 @@
+{
+  "generated_at_utc": "2026-11-09T23:44:03.751600+07:00",
+  "p406_case_count": 0,
+  "p406_resolved_count": 0,
+  "p406_pending_count": 0,
+  "duplicate_case_count": 0,
+  "duplicate_resolved_count": 0,
+  "duplicate_pending_count": 0,
+  "source_sha256": {
+    "p406_reviewer_1": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+    "p406_reviewer_2": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+    "p406_queue": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+    "p406_form": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+    "duplicate_reviewer_1": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+    "duplicate_reviewer_2": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+    "duplicate_queue": "d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e",
+    "duplicate_form": "d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e"
+  }
+}

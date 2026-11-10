@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-11-09T15:03:15.638820+00:00",
+  "status": "WAITING_FOR_DUPLICATE_REVIEW",
+  "candidate_pair_count": 70,
+  "candidate_group_count": 61,
+  "reviewed_pair_count": 0,
+  "pending_pair_count": 70,
+  "confirmed_pair_count": null,
+  "review_decision_counts": {
+    "CONFIRMED_DUPLICATE": 0,
+    "RELATED_BUT_DISTINCT": 0,
+    "NOT_DUPLICATE": 0,
+    "UNCERTAIN": 0,
+    "NEEDS_ADJUDICATION": 0
+  },
+  "candidate_review_counts_by_type": {
+    "URL_DUPLICATE_PAIRS": 0,
+    "EXACT_CONTENT_DUPLICATE_GROUPS": 0,
+    "NEAR_DUPLICATE_PAIRS": 70
+  },
+  "reviewer_sheet_rows": {
+    "neutral_template": 70,
+    "reviewer_1": 70,
+    "reviewer_2": 70
+  },
+  "inputs": {
+    "canonical_sha256": "90a1c4a4e6cd70f27df2ec15e58b4183990a398ed2a2730de2c0302bdedf6f41",
+    "master_sample_sha256": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c",
+    "near_duplicate_candidates_sha256": "636769dc6900f0e3561e4cc66b7e66775a3b7d94a405ad8eaf83eba0e38d608f",
+    "duplicate_groups_sha256": "334900b986819225fa4bf1b813f8217163f811ad8e2c3d73391f2697547b4b8e",
+    "url_duplicate_candidates_sha256": "aa0e92d15729c937493a3220ebccd9f84884027904983a777bca8eaf9eb08643",
+    "exact_duplicate_candidates_sha256": "946f61b44461cd288e32417ea4984fdbce4cd28d85e8197ac9a5f9738aafc24d"
+  },
+  "policy": "Candidate similarities and connected-component groups are not human duplicate decisions. No source article is modified or merged."
+}

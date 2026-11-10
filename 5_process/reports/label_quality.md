@@ -1,4 +1,27 @@
-# Báo cáo kiểm định nhãn — trạng thái chuẩn bị review
+# Báo cáo kiểm định nhãn — kiểm toán trạng thái hiện tại
+
+## Addendum kiểm toán cuối — 2026-11-09
+
+Trạng thái hiện tại được xác minh trực tiếp từ repository: **chưa có nhãn thủ công
+trong các gói review hiện hành**. Đường dẫn lịch sử
+`5_process/data/processed/manual_label_sample.csv` được tài liệu phân công Người 4
+quy định hiện **không tồn tại**. Vì vậy, các số liệu 57/57, reviewer `RV004` và ngày
+2026-10-27 trong nội dung lịch sử bên dưới không thể xác minh từ artifact tại đường
+dẫn đó và không được xem là trạng thái bàn giao hiện tại.
+
+Artifact thay thế đang có là `5_process/data/interim/relevance_review_sample.csv`
+(620 ID, taxonomy A–L, mọi hàng `PENDING`) cùng ba batch hiện có (150 hàng, đều
+`PENDING`). Hai phiếu P4.06 riêng biệt cũng có 620 ID mỗi phiếu và chưa có annotation.
+`legacy_borderline_manual_labels.csv` là pool legacy riêng, không thay thế sample
+authoritative nêu trong phân công và không dùng làm P4.06 gold. Xem
+`reports/P4_PERSON_4_HANDOVER_REPORT.md` để biết deliverable matrix, trạng thái validator
+và các việc đang chờ reviewer.
+
+**Kết luận hiện tại:** quy tắc và công cụ chuẩn bị/kiểm định đã có; bàn giao gốc chưa
+đủ bằng chứng hoàn tất vì artifact mang tên/path được yêu cầu vắng mặt và review hiện
+hành chưa được con người hoàn tất. Không tạo bản sao hoặc nhãn thay thế tự động.
+
+## Nội dung lịch sử (2026-10-27; không phải trạng thái hiện tại)
 
 **Trạng thái:** Mẫu chính thức của authoritative dataset đã hoàn tất review thủ công (57/57 dòng hợp lệ). Riêng pool borderline cũ có 56/304 dòng đã review và lưu thành sidecar; pool này không thuộc authoritative dataset.
 **Ngày rà soát:** 2026-10-27

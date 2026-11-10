@@ -1,0 +1,43 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:03.260842+00:00",
+  "status": "WAITING_FOR_HUMAN_REVIEW",
+  "sample_size": 10,
+  "sample_design": "purposive; not statistically representative",
+  "taxonomy": "official manual A-L labeling guideline; not P4.06 taxonomy",
+  "reviewers": {
+    "reviewer_1": {
+      "file": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\data\\interim\\pilot_10\\reviewer_1_sheet.csv",
+      "row_count": 10,
+      "unique_article_id_count": 10,
+      "reviewer_ids": [],
+      "status_counts": {
+        "PENDING": 10
+      },
+      "valid_completed_count": 0,
+      "pending_count": 10,
+      "completion_percent": 0.0,
+      "missing_article_id_count": 0,
+      "unexpected_article_id_count": 0,
+      "validation_errors_by_article_id": {},
+      "validation_error_count": 0
+    },
+    "reviewer_2": {
+      "file": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\data\\interim\\pilot_10\\reviewer_2_sheet.csv",
+      "row_count": 10,
+      "unique_article_id_count": 10,
+      "reviewer_ids": [],
+      "status_counts": {
+        "PENDING": 10
+      },
+      "valid_completed_count": 0,
+      "pending_count": 10,
+      "completion_percent": 0.0,
+      "missing_article_id_count": 0,
+      "unexpected_article_id_count": 0,
+      "validation_errors_by_article_id": {},
+      "validation_error_count": 0
+    }
+  },
+  "gold_eligible_count": 0,
+  "note": "Pilot labels are not P4.06 gold and require project-owner approval before any broader workflow decision."
+}

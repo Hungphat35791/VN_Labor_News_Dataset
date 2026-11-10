@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:00.623290+00:00",
+  "status": "WAITING_FOR_REVIEWERS",
+  "answer_key_version": "1.0.0",
+  "calibration_scenario_count": 12,
+  "reviewers": {
+    "reviewer_1": {
+      "row_count": 12,
+      "unique_scenario_count": 12,
+      "completed_response_count": 0,
+      "pending_response_count": 12,
+      "reviewer_ids": [],
+      "validation_errors": []
+    },
+    "reviewer_2": {
+      "row_count": 12,
+      "unique_scenario_count": 12,
+      "completed_response_count": 0,
+      "pending_response_count": 12,
+      "reviewer_ids": [],
+      "validation_errors": []
+    }
+  },
+  "both_reviewers_complete": false,
+  "reviewer_independence_verified": false,
+  "reviewer_lock_validation": {
+    "valid": false,
+    "file_exists": false,
+    "errors": [
+      "CALIBRATION_LOCK_MANIFEST_MISSING"
+    ]
+  },
+  "both_reviewers_locked": false,
+  "reviewer_comparison": null,
+  "scoring_policy": "Answer key is consulted only after both independent sheets contain 12 complete, valid responses in the expected scenario order and a coordinator lock manifest matches both exact sheet hashes.",
+  "individual_reviewer_report_paths": {
+    "reviewer_1": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\reports\\reviewer_calibration_reviewer_1_report.json",
+    "reviewer_2": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\reports\\reviewer_calibration_reviewer_2_report.json"
+  }
+}

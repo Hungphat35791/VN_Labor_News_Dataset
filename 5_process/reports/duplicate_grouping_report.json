@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-11-09T07:05:27.526566+00:00",
+  "total_candidate_pairs": 70,
+  "raw_candidate_pair_records": 70,
+  "candidate_rows_by_source": {
+    "url_duplicate_candidates.csv": 0,
+    "exact_duplicate_candidates.csv": 0,
+    "near_duplicate_candidates.csv": 70
+  },
+  "total_groups": 61,
+  "total_articles_in_groups": 127,
+  "group_size_distribution": {
+    "2": 58,
+    "3": 1,
+    "4": 2
+  },
+  "duplicate_type_distribution": {
+    "NEAR_DUPLICATE": 61
+  },
+  "candidate_pair_type_distribution": {
+    "NEAR_DUPLICATE": 70
+  },
+  "detector_version": "1.0.0",
+  "grouping_method": "connected_components_union_find",
+  "review_status": "REVIEW_REQUIRED",
+  "version_duplicate_evidence_available": false
+}

@@ -1,0 +1,3764 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:00.813589+00:00",
+  "status": "WAITING_FOR_REVIEWERS",
+  "master_sample_count": 620,
+  "reviewer_1": {
+    "file": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\relevance_evaluation\\p406_reviewer_1_sheet.csv",
+    "row_count": 620,
+    "unique_article_id_count": 620,
+    "reviewer_ids": [],
+    "annotation_status_counts": {
+      "PENDING": 620
+    },
+    "valid_completed_count": 0,
+    "completion_percent": 0.0,
+    "pending_count": 620,
+    "in_progress_count": 0,
+    "awaiting_adjudication_count": 0,
+    "missing_article_id_count": 0,
+    "unexpected_article_id_count": 0,
+    "validation_error_count": 620,
+    "validation_errors_by_article_id": {
+      "VNLAB-000002": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000005": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000013": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000059": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000076": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000079": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000127": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000141": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000144": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000147": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000238": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000291": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000294": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000300": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000329": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000398": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000407": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000430": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000448": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000502": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000503": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000504": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000517": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000522": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000533": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000566": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000597": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000618": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000633": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000637": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000639": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000641": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000660": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000669": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000673": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000674": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000693": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000700": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000701": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000708": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000846": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000883": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000924": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000934": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000938": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000948": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001027": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001037": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001068": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001095": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001112": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001128": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001129": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001133": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001174": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001177": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001182": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001195": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001292": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001305": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001350": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001402": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001411": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001420": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001442": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001446": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001450": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001468": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001508": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001527": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001534": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001563": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001571": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001603": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001620": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001621": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001642": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001657": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001681": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001702": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001729": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001754": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001767": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001792": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001817": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001827": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001844": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001876": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001915": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001927": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001933": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001996": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002002": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002083": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002092": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002106": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002111": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002181": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002247": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002282": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002285": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002290": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002306": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002347": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002348": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002362": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002380": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002385": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002445": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002453": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002465": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002484": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002544": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002545": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002561": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002578": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002580": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002613": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002630": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002634": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002694": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002700": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002736": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002814": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002817": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002837": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002842": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002844": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002861": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002884": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002886": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002908": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002914": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003082": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003085": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003098": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003123": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003148": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003158": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003203": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003224": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003233": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003240": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003274": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003296": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003313": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003320": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003348": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003399": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003429": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003457": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003459": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003476": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003485": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003597": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003643": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003694": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003830": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003841": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003851": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003859": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003944": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003978": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003979": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004026": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004030": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004111": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004123": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004132": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004153": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004181": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004193": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004207": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004228": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004239": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004255": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004271": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004288": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004294": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004299": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004317": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004326": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004379": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004390": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004401": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004407": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004419": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004422": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004477": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004507": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004570": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004574": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004596": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004614": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004627": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004636": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004655": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004668": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004672": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004673": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004690": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004734": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004782": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004786": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004809": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004836": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004858": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004894": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004916": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004918": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004949": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004952": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004968": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004978": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004984": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005010": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005012": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005047": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005054": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005155": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005233": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005247": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005251": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005260": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005264": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005275": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005282": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005288": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005291": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005295": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005318": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005325": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005328": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005333": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005341": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005348": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005390": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005398": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005411": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005421": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005434": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005455": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005459": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005461": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005485": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005512": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005523": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005536": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005577": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005579": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005582": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005584": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005654": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005667": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005678": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005707": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005798": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005833": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005865": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005870": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005966": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006005": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006007": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006023": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006055": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006056": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006092": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006093": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006126": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006147": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006182": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006208": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006228": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006232": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006260": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006277": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006278": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006292": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006308": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006323": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006337": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006347": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006357": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006381": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006411": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006414": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006416": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006418": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006433": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006486": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006504": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006508": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006558": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006587": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006600": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006645": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006691": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006737": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006742": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006758": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006785": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006822": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006823": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006831": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006890": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006909": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006945": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006947": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006967": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006996": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007074": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007081": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007122": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007137": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007160": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007188": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007193": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007225": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007237": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007244": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007276": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007280": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007286": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007306": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007340": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007351": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007359": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007363": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007406": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007428": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007431": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007468": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007475": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007476": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007481": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007499": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007527": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007539": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007546": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007549": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007572": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007573": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007636": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007644": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007653": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007666": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007676": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007682": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007684": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007693": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007697": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007713": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007740": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007747": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007752": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007776": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007779": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007791": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007813": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007850": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007876": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007879": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007915": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007984": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007987": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008002": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008067": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008073": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008079": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008114": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008130": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008149": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008175": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008183": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008214": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008225": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008227": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008239": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008283": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008302": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008319": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008404": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008406": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008407": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008430": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008460": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008525": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008530": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008533": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008535": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008556": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008577": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008582": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008585": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008598": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008602": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008612": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008616": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008622": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008628": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008635": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008653": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008668": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008676": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008679": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008695": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008709": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008742": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008823": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008825": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008837": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008838": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008852": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008863": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008867": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008875": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008880": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008895": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008928": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008994": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009003": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009047": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009095": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009098": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009134": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009136": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009148": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009180": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009190": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009192": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009198": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009232": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009237": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009239": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009244": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009256": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009281": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009286": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009316": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009331": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009354": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009356": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009359": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009367": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009389": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009400": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009418": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009428": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009429": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009437": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009462": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009487": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009532": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009544": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009585": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009591": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009669": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009675": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009676": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009685": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009688": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009692": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009696": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009698": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009700": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009715": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009732": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009765": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009768": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009789": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009805": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009873": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009888": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009898": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009903": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009906": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009908": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009917": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009927": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009945": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009963": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009980": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009984": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009993": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009999": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010007": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010063": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010083": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010095": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010102": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010191": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010198": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010200": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010202": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010234": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010281": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010288": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010307": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010334": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010356": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010376": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010405": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010415": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010430": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010463": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010471": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010480": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010503": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010532": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010559": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010570": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010586": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010596": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010627": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010645": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010660": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010666": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010669": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010725": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010784": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010785": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010792": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010798": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010799": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010826": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010834": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010850": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010890": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010921": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010935": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010939": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010955": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010970": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010982": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010986": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011031": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011038": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011041": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011105": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011151": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011158": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011162": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011221": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011251": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011296": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011318": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011329": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011334": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011335": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011338": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011392": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011397": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011448": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011479": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011481": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011498": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011502": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011555": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011558": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011559": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011564": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011592": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011593": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011598": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011605": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011611": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011642": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011678": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011696": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011700": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011750": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011822": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011831": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011837": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011865": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011879": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011904": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011907": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011914": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011923": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011928": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011960": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011967": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011986": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012001": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012013": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012057": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012060": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012066": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012075": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012102": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012134": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012204": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012215": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012218": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012224": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012228": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012265": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012271": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012308": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012329": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012338": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012364": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012365": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012421": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012431": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012461": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012466": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012467": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012470": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012542": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012555": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012564": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012581": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012614": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012651": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012666": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012710": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012722": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012766": [
+        "PENDING_HUMAN_REVIEW"
+      ]
+    }
+  },
+  "reviewer_2": {
+    "file": "C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\relevance_evaluation\\p406_reviewer_2_sheet.csv",
+    "row_count": 620,
+    "unique_article_id_count": 620,
+    "reviewer_ids": [],
+    "annotation_status_counts": {
+      "PENDING": 620
+    },
+    "valid_completed_count": 0,
+    "completion_percent": 0.0,
+    "pending_count": 620,
+    "in_progress_count": 0,
+    "awaiting_adjudication_count": 0,
+    "missing_article_id_count": 0,
+    "unexpected_article_id_count": 0,
+    "validation_error_count": 620,
+    "validation_errors_by_article_id": {
+      "VNLAB-000002": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000005": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000013": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000059": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000076": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000079": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000127": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000141": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000144": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000147": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000238": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000291": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000294": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000300": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000329": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000398": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000407": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000430": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000448": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000502": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000503": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000504": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000517": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000522": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000533": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000566": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000597": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000618": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000633": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000637": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000639": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000641": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000660": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000669": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000673": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000674": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000693": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000700": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000701": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000708": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000846": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000883": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000924": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000934": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000938": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-000948": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001027": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001037": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001068": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001095": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001112": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001128": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001129": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001133": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001174": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001177": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001182": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001195": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001292": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001305": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001350": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001402": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001411": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001420": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001442": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001446": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001450": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001468": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001508": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001527": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001534": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001563": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001571": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001603": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001620": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001621": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001642": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001657": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001681": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001702": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001729": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001754": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001767": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001792": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001817": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001827": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001844": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001876": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001915": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001927": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001933": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-001996": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002002": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002083": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002092": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002106": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002111": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002181": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002247": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002282": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002285": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002290": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002306": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002347": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002348": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002362": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002380": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002385": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002445": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002453": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002465": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002484": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002544": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002545": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002561": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002578": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002580": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002613": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002630": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002634": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002694": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002700": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002736": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002814": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002817": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002837": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002842": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002844": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002861": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002884": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002886": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002908": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-002914": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003082": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003085": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003098": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003123": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003148": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003158": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003203": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003224": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003233": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003240": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003274": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003296": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003313": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003320": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003348": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003399": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003429": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003457": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003459": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003476": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003485": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003597": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003643": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003694": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003830": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003841": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003851": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003859": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003944": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003978": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-003979": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004026": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004030": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004111": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004123": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004132": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004153": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004181": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004193": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004207": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004228": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004239": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004255": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004271": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004288": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004294": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004299": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004317": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004326": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004379": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004390": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004401": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004407": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004419": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004422": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004477": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004507": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004570": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004574": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004596": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004614": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004627": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004636": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004655": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004668": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004672": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004673": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004690": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004734": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004782": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004786": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004809": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004836": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004858": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004894": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004916": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004918": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004949": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004952": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004968": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004978": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-004984": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005010": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005012": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005047": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005054": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005155": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005233": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005247": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005251": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005260": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005264": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005275": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005282": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005288": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005291": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005295": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005318": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005325": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005328": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005333": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005341": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005348": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005390": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005398": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005411": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005421": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005434": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005455": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005459": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005461": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005485": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005512": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005523": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005536": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005577": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005579": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005582": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005584": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005654": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005667": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005678": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005707": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005798": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005833": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005865": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005870": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-005966": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006005": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006007": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006023": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006055": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006056": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006092": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006093": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006126": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006147": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006182": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006208": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006228": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006232": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006260": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006277": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006278": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006292": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006308": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006323": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006337": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006347": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006357": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006381": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006411": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006414": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006416": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006418": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006433": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006486": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006504": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006508": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006558": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006587": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006600": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006645": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006691": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006737": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006742": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006758": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006785": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006822": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006823": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006831": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006890": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006909": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006945": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006947": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006967": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-006996": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007074": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007081": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007122": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007137": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007160": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007188": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007193": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007225": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007237": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007244": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007276": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007280": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007286": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007306": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007340": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007351": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007359": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007363": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007406": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007428": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007431": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007468": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007475": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007476": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007481": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007499": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007527": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007539": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007546": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007549": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007572": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007573": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007636": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007644": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007653": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007666": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007676": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007682": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007684": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007693": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007697": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007713": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007740": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007747": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007752": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007776": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007779": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007791": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007813": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007850": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007876": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007879": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007915": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007984": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-007987": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008002": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008067": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008073": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008079": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008114": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008130": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008149": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008175": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008183": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008214": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008225": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008227": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008239": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008283": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008302": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008319": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008404": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008406": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008407": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008430": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008460": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008525": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008530": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008533": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008535": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008556": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008577": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008582": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008585": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008598": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008602": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008612": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008616": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008622": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008628": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008635": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008653": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008668": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008676": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008679": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008695": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008709": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008742": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008823": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008825": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008837": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008838": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008852": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008863": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008867": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008875": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008880": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008895": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008928": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-008994": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009003": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009047": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009095": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009098": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009134": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009136": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009148": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009180": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009190": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009192": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009198": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009232": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009237": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009239": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009244": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009256": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009281": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009286": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009316": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009331": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009354": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009356": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009359": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009367": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009389": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009400": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009418": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009428": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009429": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009437": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009462": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009487": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009532": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009544": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009585": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009591": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009669": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009675": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009676": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009685": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009688": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009692": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009696": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009698": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009700": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009715": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009732": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009765": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009768": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009789": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009805": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009873": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009888": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009898": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009903": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009906": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009908": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009917": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009927": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009945": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009963": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009980": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009984": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009993": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-009999": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010007": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010063": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010083": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010095": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010102": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010191": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010198": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010200": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010202": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010234": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010281": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010288": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010307": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010334": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010356": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010376": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010405": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010415": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010430": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010463": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010471": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010480": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010503": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010532": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010559": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010570": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010586": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010596": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010627": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010645": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010660": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010666": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010669": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010725": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010784": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010785": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010792": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010798": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010799": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010826": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010834": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010850": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010890": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010921": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010935": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010939": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010955": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010970": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010982": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-010986": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011031": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011038": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011041": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011105": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011151": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011158": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011162": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011221": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011251": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011296": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011318": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011329": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011334": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011335": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011338": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011392": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011397": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011448": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011479": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011481": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011498": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011502": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011555": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011558": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011559": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011564": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011592": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011593": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011598": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011605": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011611": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011642": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011678": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011696": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011700": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011750": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011822": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011831": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011837": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011865": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011879": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011904": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011907": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011914": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011923": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011928": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011960": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011967": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-011986": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012001": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012013": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012057": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012060": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012066": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012075": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012102": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012134": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012204": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012215": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012218": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012224": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012228": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012265": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012271": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012308": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012329": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012338": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012364": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012365": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012421": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012431": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012461": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012466": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012467": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012470": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012542": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012555": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012564": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012581": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012614": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012651": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012666": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012710": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012722": [
+        "PENDING_HUMAN_REVIEW"
+      ],
+      "VNLAB-012766": [
+        "PENDING_HUMAN_REVIEW"
+      ]
+    }
+  },
+  "taxonomy_note": "This validator accepts only P4.06 statuses/topics. Legacy A-L manual values are not converted or accepted as P4.06 labels."
+}

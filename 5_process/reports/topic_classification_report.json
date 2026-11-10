@@ -1,0 +1,38 @@
+{
+  "generated_at_utc": "2026-11-09T14:45:55.038193+00:00",
+  "input_file": "1_du_lieu_chinh\\vn_labor_news_dataset.csv",
+  "input_sha256": "90a1c4a4e6cd70f27df2ec15e58b4183990a398ed2a2730de2c0302bdedf6f41",
+  "classifier_version": "1.0.0",
+  "source_relevance_classifier_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "method": "p4.07_rule_reuse_with_per_topic_evidence",
+  "topic_score_semantics": "Integer count of matched strong P4.07 rules for a topic; not a probability or calibrated confidence.",
+  "manual_annotation_fields_written": false,
+  "total_articles_checked": 12784,
+  "relevance_status_counts": {
+    "IRRELEVANT": 220,
+    "RELEVANT": 10240,
+    "REVIEW_REQUIRED": 2324
+  },
+  "topic_distribution": {
+    "EMPLOYMENT": 5891,
+    "UNEMPLOYMENT": 1501,
+    "WAGES": 4182,
+    "SOCIAL_INSURANCE": 3857,
+    "UNEMPLOYMENT_INSURANCE": 1616,
+    "LABOR_RIGHTS": 628,
+    "LABOR_CONTRACT": 1346,
+    "LABOR_DISPUTE": 1009,
+    "OCCUPATIONAL_SAFETY": 563,
+    "LABOR_POLICY": 2591
+  },
+  "empty_content_count": 0,
+  "execution_time_seconds": 83.031334,
+  "limitations": [
+    "Topic assignments are automatic candidates, not human-confirmed labels or ground truth.",
+    "A topic score is a count of matched strong rules, not a probability or calibrated confidence.",
+    "P4.06 multi-label topics are separate from the A-L manual annotation taxonomy.",
+    "Only explicit rules in P4.07 are reused; implicit topics and paraphrases may be missed.",
+    "Context-dependent or insufficient evidence remains REVIEW_REQUIRED."
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:04.793922+00:00",
+  "status": "WAITING_FOR_GOLD_LABELS",
+  "steps": [
+    {
+      "name": "calibration_p406_duplicate_validation",
+      "exit_code": 0,
+      "stdout": "{\"calibration_status\": \"WAITING_FOR_REVIEWERS\", \"p406_status\": \"WAITING_FOR_REVIEWERS\", \"p406_agreement_status\": \"WAITING_FOR_REVIEWERS\", \"duplicate_status\": \"WAITING_FOR_DUPLICATE_REVIEW\", \"duplicate_agreement_status\": \"WAITING_FOR_DUPLICATE_REVIEW\"}",
+      "stderr": "",
+      "status": "SUCCEEDED",
+      "result": {
+        "calibration_status": "WAITING_FOR_REVIEWERS",
+        "p406_status": "WAITING_FOR_REVIEWERS",
+        "p406_agreement_status": "WAITING_FOR_REVIEWERS",
+        "duplicate_status": "WAITING_FOR_DUPLICATE_REVIEW",
+        "duplicate_agreement_status": "WAITING_FOR_DUPLICATE_REVIEW"
+      }
+    },
+    {
+      "name": "pilot_10_validation",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"WAITING_FOR_HUMAN_REVIEW\", \"reviewer_1_completed\": 0, \"reviewer_2_completed\": 0, \"adjudication_queue_count\": 0}",
+      "stderr": "",
+      "status": "SUCCEEDED",
+      "result": {
+        "status": "WAITING_FOR_HUMAN_REVIEW",
+        "reviewer_1_completed": 0,
+        "reviewer_2_completed": 0,
+        "adjudication_queue_count": 0
+      }
+    },
+    {
+      "name": "pilot_adjudication_form_refresh",
+      "exit_code": 0,
+      "stdout": "{\"pilot_10_adjudication_cases\": 0}",
+      "stderr": "",
+      "status": "SUCCEEDED",
+      "result": {
+        "pilot_10_adjudication_cases": 0
+      }
+    },
+    {
+      "name": "p406_duplicate_adjudication_empty_form_refresh",
+      "exit_code": 0,
+      "stdout": "{\"p406_adjudication_cases\": 0, \"duplicate_adjudication_cases\": 0}",
+      "stderr": "",
+      "status": "SUCCEEDED",
+      "result": {
+        "p406_adjudication_cases": 0,
+        "duplicate_adjudication_cases": 0
+      }
+    },
+    {
+      "name": "p406_duplicate_adjudication_validation",
+      "exit_code": 0,
+      "stdout": "{\"generated_at_utc\": \"2026-11-09T23:44:03.751600+07:00\", \"p406_case_count\": 0, \"p406_resolved_count\": 0, \"p406_pending_count\": 0, \"duplicate_case_count\": 0, \"duplicate_resolved_count\": 0, \"duplicate_pending_count\": 0, \"source_sha256\": {\"p406_reviewer_1\": \"6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed\", \"p406_reviewer_2\": \"6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed\", \"p406_queue\": \"86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d\", \"p406_form\": \"86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d\", \"duplicate_reviewer_1\": \"23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98\", \"duplicate_reviewer_2\": \"23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98\", \"duplicate_queue\": \"d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e\", \"duplicate_form\": \"d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e\"}}",
+      "stderr": "",
+      "status": "SUCCEEDED",
+      "result": {
+        "generated_at_utc": "2026-11-09T23:44:03.751600+07:00",
+        "p406_case_count": 0,
+        "p406_resolved_count": 0,
+        "p406_pending_count": 0,
+        "duplicate_case_count": 0,
+        "duplicate_resolved_count": 0,
+        "duplicate_pending_count": 0,
+        "source_sha256": {
+          "p406_reviewer_1": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+          "p406_reviewer_2": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+          "p406_queue": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+          "p406_form": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+          "duplicate_reviewer_1": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+          "duplicate_reviewer_2": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+          "duplicate_queue": "d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e",
+          "duplicate_form": "d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e"
+        }
+      }
+    },
+    {
+      "name": "pilot_adjudication_validation",
+      "exit_code": 0,
+      "stdout": "{\"generated_at_utc\": \"2026-11-09T16:44:03.873174+00:00\", \"status\": \"NO_ADJUDICATION_CASES\", \"queue_case_count\": 0, \"form_case_count\": 0, \"status_counts\": {\"PENDING\": 0, \"ADJUDICATED\": 0, \"NEEDS_ADJUDICATION\": 0}, \"reviewer_1_sheet_sha256\": \"29f3f18da8b51a57477b76b7924144000a2e0e3869180511d9e0f772c7cb1e69\", \"reviewer_2_sheet_sha256\": \"29f3f18da8b51a57477b76b7924144000a2e0e3869180511d9e0f772c7cb1e69\", \"queue_sha256\": \"e9aae2277f1e699d8070ac7fa7ae4a02ac749ecaa06617fd94d10355232b9b77\", \"form_sha256\": \"e9aae2277f1e699d8070ac7fa7ae4a02ac749ecaa06617fd94d10355232b9b77\", \"note\": \"Pilot 10 adjudication is separate from P4.06 and never creates P4.09 gold.\"}",
+      "stderr": "",
+      "status": "SUCCEEDED",
+      "result": {
+        "generated_at_utc": "2026-11-09T16:44:03.873174+00:00",
+        "status": "NO_ADJUDICATION_CASES",
+        "queue_case_count": 0,
+        "form_case_count": 0,
+        "status_counts": {
+          "PENDING": 0,
+          "ADJUDICATED": 0,
+          "NEEDS_ADJUDICATION": 0
+        },
+        "reviewer_1_sheet_sha256": "29f3f18da8b51a57477b76b7924144000a2e0e3869180511d9e0f772c7cb1e69",
+        "reviewer_2_sheet_sha256": "29f3f18da8b51a57477b76b7924144000a2e0e3869180511d9e0f772c7cb1e69",
+        "queue_sha256": "e9aae2277f1e699d8070ac7fa7ae4a02ac749ecaa06617fd94d10355232b9b77",
+        "form_sha256": "e9aae2277f1e699d8070ac7fa7ae4a02ac749ecaa06617fd94d10355232b9b77",
+        "note": "Pilot 10 adjudication is separate from P4.06 and never creates P4.09 gold."
+      }
+    },
+    {
+      "name": "human_gold_eligibility",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"WAITING_FOR_GOLD_LABELS\", \"eligible_gold_count\": 0, \"records_excluded_or_unresolved\": 620, \"excluded_reason_counts\": {\"invalid_incomplete_or_nonindependent_reviews\": 620}, \"gold_file_created\": false, \"adjudication_forms\": {\"generated_at_utc\": \"2026-11-09T23:44:03.999307+07:00\", \"p406_case_count\": 0, \"p406_resolved_count\": 0, \"p406_pending_count\": 0, \"duplicate_case_count\": 0, \"duplicate_resolved_count\": 0, \"duplicate_pending_count\": 0, \"source_sha256\": {\"p406_reviewer_1\": \"6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed\", \"p406_reviewer_2\": \"6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed\", \"p406_queue\": \"86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d\", \"p406_form\": \"86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d\", \"duplicate_reviewer_1\": \"23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98\", \"duplicate_reviewer_2\": \"23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98\", \"duplicate_queue\": \"d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e\", \"duplicate_form\": \"d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e\"}}, \"provenance\": {\"source_sha256\": {\"p406_reviewer_1\": \"6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed\", \"p406_reviewer_2\": \"6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed\", \"p406_queue\": \"86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d\", \"p406_adjudication_form\": \"86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d\", \"master_sample\": \"8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c\", \"p406_taxonomy\": \"b64f7833c21151a26a7099676fe538dcdf03da0d9afc3cc357d5326743f820d4\", \"p406_protocol\": \"32f3b3d95da3b5867cfa01e203ffeac3b24893ad5cc80b0c567760fbef70584a\"}, \"p406_taxonomy_version\": \"1.0.0\", \"gold_file_sha256\": null}}",
+      "stderr": "",
+      "status": "SUCCEEDED",
+      "result": {
+        "status": "WAITING_FOR_GOLD_LABELS",
+        "eligible_gold_count": 0,
+        "records_excluded_or_unresolved": 620,
+        "excluded_reason_counts": {
+          "invalid_incomplete_or_nonindependent_reviews": 620
+        },
+        "gold_file_created": false,
+        "adjudication_forms": {
+          "generated_at_utc": "2026-11-09T23:44:03.999307+07:00",
+          "p406_case_count": 0,
+          "p406_resolved_count": 0,
+          "p406_pending_count": 0,
+          "duplicate_case_count": 0,
+          "duplicate_resolved_count": 0,
+          "duplicate_pending_count": 0,
+          "source_sha256": {
+            "p406_reviewer_1": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+            "p406_reviewer_2": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+            "p406_queue": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+            "p406_form": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+            "duplicate_reviewer_1": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+            "duplicate_reviewer_2": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+            "duplicate_queue": "d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e",
+            "duplicate_form": "d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e"
+          }
+        },
+        "provenance": {
+          "source_sha256": {
+            "p406_reviewer_1": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+            "p406_reviewer_2": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+            "p406_queue": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+            "p406_adjudication_form": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+            "master_sample": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c",
+            "p406_taxonomy": "b64f7833c21151a26a7099676fe538dcdf03da0d9afc3cc357d5326743f820d4",
+            "p406_protocol": "32f3b3d95da3b5867cfa01e203ffeac3b24893ad5cc80b0c567760fbef70584a"
+          },
+          "p406_taxonomy_version": "1.0.0",
+          "gold_file_sha256": null
+        }
+      }
+    },
+    {
+      "name": "p409_evaluation",
+      "exit_code": 0,
+      "stdout": "P4.09 status=WAITING_FOR_GOLD_LABELS; JSON: C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\relevance_evaluation\\relevance_report.json; Markdown: C:\\Users\\Admin\\Downloads\\VN_Labor_News_Dataset_Clone\\5_process\\relevance_evaluation\\relevance_report.md",
+      "stderr": "",
+      "status": "SUCCEEDED",
+      "result": {
+        "status": "WAITING_FOR_GOLD_LABELS"
+      }
+    }
+  ],
+  "input_sha256": {
+    "canonical": "90a1c4a4e6cd70f27df2ec15e58b4183990a398ed2a2730de2c0302bdedf6f41",
+    "master_620": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c",
+    "batch_01": "cdc485ef53ac6f13023243c30cb21ac9a2157b10a6d8c7d7dd4e393634a192df",
+    "batch_02": "8120022d2aa665de5ea5a5da8cb51d92697eb7bf04c2b8849b47df7924f1dbc3",
+    "batch_03": "81541d8e12510aa1d4558062de386af996575ad370ee4b306c9d2faac806ec9d",
+    "pilot_reviewer_1": "29f3f18da8b51a57477b76b7924144000a2e0e3869180511d9e0f772c7cb1e69",
+    "pilot_reviewer_2": "29f3f18da8b51a57477b76b7924144000a2e0e3869180511d9e0f772c7cb1e69",
+    "calibration_reviewer_1": "909677c1171d1779708b5e61735a47c6fdf682755a0d2d837559c6d2a34ff45a",
+    "calibration_reviewer_2": "909677c1171d1779708b5e61735a47c6fdf682755a0d2d837559c6d2a34ff45a",
+    "p406_reviewer_1": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+    "p406_reviewer_2": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+    "duplicate_reviewer_1": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+    "duplicate_reviewer_2": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+    "labeling_guideline": "49983c55f820cc092652ff33c7642717f3e2cd309745a0007969e97b6398a849",
+    "p406_taxonomy": "b64f7833c21151a26a7099676fe538dcdf03da0d9afc3cc357d5326743f820d4"
+  },
+  "changed_since_previous_run": {
+    "canonical": false,
+    "master_620": false,
+    "batch_01": false,
+    "batch_02": false,
+    "batch_03": false,
+    "pilot_reviewer_1": false,
+    "pilot_reviewer_2": false,
+    "calibration_reviewer_1": false,
+    "calibration_reviewer_2": false,
+    "p406_reviewer_1": false,
+    "p406_reviewer_2": false,
+    "duplicate_reviewer_1": false,
+    "duplicate_reviewer_2": false,
+    "labeling_guideline": false,
+    "p406_taxonomy": false
+  },
+  "protected_inputs_changed_during_run": {},
+  "gold_file_exists": false,
+  "gold_file_sha256": null,
+  "gold_build_report": {
+    "status": "WAITING_FOR_GOLD_LABELS",
+    "eligible_gold_count": 0,
+    "records_excluded_or_unresolved": 620,
+    "excluded_reason_counts": {
+      "invalid_incomplete_or_nonindependent_reviews": 620
+    },
+    "gold_file_created": false,
+    "adjudication_forms": {
+      "generated_at_utc": "2026-11-09T23:44:03.999307+07:00",
+      "p406_case_count": 0,
+      "p406_resolved_count": 0,
+      "p406_pending_count": 0,
+      "duplicate_case_count": 0,
+      "duplicate_resolved_count": 0,
+      "duplicate_pending_count": 0,
+      "source_sha256": {
+        "p406_reviewer_1": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+        "p406_reviewer_2": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+        "p406_queue": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+        "p406_form": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+        "duplicate_reviewer_1": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+        "duplicate_reviewer_2": "23d97b3a1901f4f83a3af3f32077190196e2f57d8fc4a3538f034c7d197deb98",
+        "duplicate_queue": "d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e",
+        "duplicate_form": "d8bb3ed7bbd9f694bc4eeb2e26317422bfa1e338d45677b49187121792bbbe8e"
+      }
+    },
+    "provenance": {
+      "source_sha256": {
+        "p406_reviewer_1": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+        "p406_reviewer_2": "6d2460fc3e910b4d429e7de6ef38eb04d8845609acc70d278b79148c803f09ed",
+        "p406_queue": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+        "p406_adjudication_form": "86d52af4821231a68f002c89c28296722d96116e47b17920049535764c5c237d",
+        "master_sample": "8e09acffaaee6c5e6883634a3ecc32d075fc45ea3d24f7c5aa6c66ecd889e85c",
+        "p406_taxonomy": "b64f7833c21151a26a7099676fe538dcdf03da0d9afc3cc357d5326743f820d4",
+        "p406_protocol": "32f3b3d95da3b5867cfa01e203ffeac3b24893ad5cc80b0c567760fbef70584a"
+      },
+      "p406_taxonomy_version": "1.0.0",
+      "gold_file_sha256": null
+    }
+  },
+  "note": "This command refreshes state when run; it does not watch files continuously and never creates reviewer or adjudicator decisions."
+}

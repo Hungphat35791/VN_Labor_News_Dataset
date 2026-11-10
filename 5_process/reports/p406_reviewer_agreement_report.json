@@ -1,0 +1,25 @@
+{
+  "generated_at_utc": "2026-11-09T16:44:00.813075+00:00",
+  "status": "WAITING_FOR_REVIEWERS",
+  "expected_sample_size": 620,
+  "valid_completed_by_both": 0,
+  "agreement_count": 0,
+  "relevance_disagreement_count": 0,
+  "topic_disagreement_count": 0,
+  "relevance_and_topic_disagreement_count": 0,
+  "not_comparable_or_missing_count": 620,
+  "adjudication_queue_count": 0,
+  "agreement_metrics": {
+    "relevance": {
+      "agreement_count": 0,
+      "comparable_count": 0,
+      "raw_agreement": null
+    },
+    "topics_among_both_relevant": {
+      "agreement_count": 0,
+      "comparable_count": 0,
+      "raw_agreement": null
+    }
+  },
+  "note": "Raw agreement is reported only for records with two valid independent completed reviews. No chance-corrected coefficient is calculated."
+}
